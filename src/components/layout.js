@@ -13,12 +13,12 @@ import "../styles/site.css"
 import NavStyles from "../styles/navbar.module.css"
 
 export default function Layout({ children, className }){
-    const whatLocation = props => {
-        const currentLocation = props.pathname;
-        if(currentLocation.includes('case-studies') || currentLocation.includes('portfolio')){
-            return { className: NavStyles.active}
-        }
-    }
+    // const whatLocation = props => {
+    //     const currentLocation = props.pathname;
+    //     if(currentLocation.includes('case-studies') || currentLocation.includes('portfolio')){
+    //         return { className: NavStyles.active}
+    //     }
+    // }
 
     return(
         <React.Fragment>

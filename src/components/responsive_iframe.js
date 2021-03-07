@@ -1,20 +1,24 @@
 import React from "react"
-
+import parse, {attributesToProps} from "html-react-parser"
 
 export default function ResponsiveIframe({ iframeString, className, style }){
-    const parser = new DOMParser();
-    const iframeDOM = parser.parseFromString(iframeString, "text/html").querySelector('iframe');
-    let width =  iframeDOM.getAttribute('width');
-    let height = iframeDOM.getAttribute('height');
-    iframeDOM.removeAttribute('width');
-    iframeDOM.removeAttribute('height');
-    iframeDOM.setAttribute('style', `position:absolute; top: 0; left:0; width:100%; height:100%;`)
-
+    const options = {
+        replace: ({attribs}) => {
+            if(!attribs){
+                return;
+            }
+            const props = attributesToProps(attribs);
+            return (
+            <div 
+                style={{position: "relative", height: 0, overflow: "hidden", paddingBottom: `${props.height/props.width*100}%`, ...style}} 
+                className={className}
+            >
+                <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}} {...props} ></iframe>
+            </div>)
+        }
+    }
 
     return(
-        <div
-        className={className}
-        style={{position: "relative", height: 0, overflow: "hidden", paddingBottom: `${height/width*100}%`, ...style }}
-         dangerouslySetInnerHTML={{ __html: iframeDOM.outerHTML}} />
+        parse(iframeString, options)
     )
 }
