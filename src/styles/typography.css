@@ -1,0 +1,97 @@
+h1{
+    font-size: 2.25em;
+    font-weight: 700;
+    font-family: "DM Sans";
+    letter-spacing: -0.5;
+}
+
+/* Large text callouts */
+h2{
+    font-size: 1.33em;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    padding-top: calc(var(--row-gap)*2);
+    padding-bottom: calc(var(--row-gap)*2);
+}
+
+/* Section Heading */
+h3{
+    font-weight: 600;
+    font-size: 1.3em;
+    font-family: "DM Sans";
+    padding-top: calc(var(--row-gap)*4);
+}
+
+h4{
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 1em;
+}
+
+p{
+    line-height: 1.65;
+}
+
+a{
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* hr{
+    margin-top: calc(var(--row-gap));
+    padding-bottom: calc(var(--row-gap)*3);
+    margin-block-end: 0;
+    border: none;
+} */
+
+hr{
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 60 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.94358C4.86079 6.94358 7.70477 3.54437 10.2112 2.09168C12.7176 0.638984 12.7688 6.94358 15.2023 6.94358C17.6358 6.94358 20.3423 1.32535 22.252 1.01274C24.1616 0.700139 27.4761 6.24245 29.673 6.24245C31.8698 6.24245 35.0308 1.75963 36.8777 1.75963C38.7246 1.75963 41.9145 5.45627 44.1494 6.94358C46.3843 8.43088 49.6753 1.75963 52.4767 1.75963C55.278 1.75963 54.3956 6.94358 60 6.94358' stroke='%23C8C8C8' stroke-width='2'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    height:8px;
+    border: none;
+    width: 180px;
+    margin-top: calc(var(--row-gap)*3);
+    margin-bottom: calc(var(--row-gap)*3);
+}
+
+/* hr::after{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color:var(--minor-content);
+    text-decoration-thickness: 2px;
+    word-spacing:175px;
+    line-height:0;
+    margin-top: 0.25em;
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    content: '\00a0';
+} */
+
+figcaption{
+    font-size: 0.8em;
+    color: var(--minor-content);
+    margin-top: 0.2em;
+}
+
+del{
+    text-decoration: none;
+    background: var(--highlight-color);
+    padding: 0 0.15em;
+}
+
+blockquote{
+    font-size: 0.9em;
+    line-height: 1.65;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    margin-left: 2em;
+    padding-left: 0.75em;
+    border-left: 2px solid #DFDFE2;
+    color: var(--minor-content);
+}

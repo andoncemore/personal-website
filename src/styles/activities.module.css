@@ -1,0 +1,72 @@
+.list{
+    display: block;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    list-style: disc;
+    font-family: 'DM Sans';
+    font-size: 16px;
+}
+
+.list li{
+    margin-top: 0.125em;
+    line-height: 1.4;
+    /* display: flex; */
+}
+
+.list li > a{
+    color: var(--link-color);
+}
+
+.list li > *{
+    display: inline-block;
+    color: var(--minor-content);
+}
+
+
+.list li > *:before{
+    content: '•';
+    padding: 0 5px;
+    background: none;
+    text-decoration: none;
+    color: var(--minor-content);
+}
+
+.list li > *:first-child:before{
+    all: unset;
+    content: none;
+}
+
+.list li > *:first-child{
+    font-weight: 500;
+}
+
+.list li > p:first-child{
+    color: var(--main-content);
+}
+
+
+.list li > a:nth-child(2){
+    margin-left: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--minor-content);
+    background: var(--minor-background);
+    padding: 0 4px;
+    transform: color 150ms ease;
+    /* opacity: 0.5; */
+
+}
+
+.list li > a:nth-child(2):hover{
+    text-decoration: none;
+    color: var(--main-content);
+}
+
+.list li > a:nth-child(2):before{
+    all: unset;
+
+}
+/* .list li > a:nth-child(2):after{
+    all: unset;
+    content: ']'
+} */

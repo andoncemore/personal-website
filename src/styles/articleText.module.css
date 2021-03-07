@@ -1,0 +1,39 @@
+.portfolio p,
+.portfolio ul,
+.portfolio ol{
+    font-size: 14px;
+}
+
+.portfolio h3{
+    font-size: 1em;
+}
+
+.casestudy p,
+.casestudy ul,
+.casestudy ol{
+    font-size: 16px;
+}
+
+.portfolio ol,
+.casestudy ol
+{
+    display: block;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    list-style: decimal;
+}
+
+.portfolio ul,
+.casestudy ul{
+    display: block;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    list-style: disc;
+}
+
+.portfolio  li,
+.casestudy li{
+    margin-top: 0.5em;
+    line-height: 1.625;
+}
+

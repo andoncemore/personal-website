@@ -1,0 +1,109 @@
+.navbar{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: 10px 14px;
+    font-family: 'DM Sans';
+    text-transform: lowercase;
+    font-size: 16px;
+    width: 100%;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+}
+
+nav.navbar{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:2;
+}
+
+footer.navbar{
+    padding-bottom: 20px;
+    justify-content:center;
+}
+
+.siteNav {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.siteNav > *{
+    margin-right: 2px;
+}
+
+.siteNav a{
+    font-weight: 400;
+    color: var(--main-content);
+    padding: 0 4px;
+    transition: background 150ms ease, color 150ms ease;
+    border-radius: 2px;
+}
+
+.siteNav a:hover{
+    background: var(--highlight-color);
+    color: var(--main-content) !important;
+}
+
+.navbar.dark .siteNav a{
+    color: white;
+}
+
+.navbar.dark a.logo{
+    color: white;
+}
+
+.logo{
+    font-size: 18px;
+    color: var(--main-content);
+    margin-right: 12px;
+}
+
+.dark .underline:after{
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 60 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.94358C4.86079 6.94358 7.70477 3.54437 10.2112 2.09168C12.7176 0.638984 12.7688 6.94358 15.2023 6.94358C17.6358 6.94358 20.3423 1.32535 22.252 1.01274C24.1616 0.700139 27.4761 6.24245 29.673 6.24245C31.8698 6.24245 35.0308 1.75963 36.8777 1.75963C38.7246 1.75963 41.9145 5.45627 44.1494 6.94358C46.3843 8.43088 49.6753 1.75963 52.4767 1.75963C55.278 1.75963 54.3956 6.94358 60 6.94358' stroke='%23FFFFFF' stroke-width='2'/%3E%3C/svg%3E");
+}
+
+.underline{
+    display:inline-flex;
+    flex-flow: column nowrap;
+    line-height: 1;
+}
+
+.underline:after{
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 60 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.94358C4.86079 6.94358 7.70477 3.54437 10.2112 2.09168C12.7176 0.638984 12.7688 6.94358 15.2023 6.94358C17.6358 6.94358 20.3423 1.32535 22.252 1.01274C24.1616 0.700139 27.4761 6.24245 29.673 6.24245C31.8698 6.24245 35.0308 1.75963 36.8777 1.75963C38.7246 1.75963 41.9145 5.45627 44.1494 6.94358C46.3843 8.43088 49.6753 1.75963 52.4767 1.75963C55.278 1.75963 54.3956 6.94358 60 6.94358' stroke='%23383943' stroke-width='2'/%3E%3C/svg%3E");    
+    flex-grow: 1;
+    background-repeat: repeat-x;
+    height:8px;
+    /* width: 100%; */
+}
+
+
+
+footer.navbar{
+    padding-top: 20px;
+}
+
+footer.navbar a:hover{
+    background: none;
+    color: var(--main-content);
+    transition: color 150ms;
+}
+
+footer.navbar a{
+    color: var(--minor-content);
+}
+
+footer.navbar svg path{
+    fill: var(--minor-content);
+}
+
+footer.navbar svg:hover path{
+    fill: black;
+    transition: fill 150ms;
+}

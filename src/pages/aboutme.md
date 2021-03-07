@@ -1,0 +1,3 @@
+I’m a designer, researcher and [critical technologist](https://google.com) using design and strategic prototyping to wrangle with the messy realities of complex systems. I work best in the early stages of the design process: conducting and making sense of research, ~~identifying areas of opportunity~~, and storytelling through prototyping.
+
+I’m a designer, researcher and [critical technologist](https://google.com) using design and strategic prototyping to wrangle with the messy realities of complex systems. I work best in the early stages of the design process: conducting and making sense of research, ~~identifying areas of opportunity~~, and storytelling through prototyping.
