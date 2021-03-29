@@ -5,24 +5,64 @@ import ActivityStyle from '../styles/activities.module.css'
 
 export default function Activities(){
     return(
-        <ul className={ActivityStyle.list}>
-            <li>
-                <a href="http:google.com">PRIMER 2020</a>
-                <Link to="/portfolio/post-2">Unstable Label</Link>
-                <p>Interactive Web Essay</p>
-                <p>June 2016</p>
-            </li>
-            <li>
-                <p>PRIMER 2020</p>
-                <Link to="/portfolio/post-2">Unstable Label</Link>
-                <p>Interactive Web Essay</p>
-                <p>June 2016</p>
-            </li>
-            <li>
-                <p>Unstable Label</p>
-                <p>Interactive Web Essay</p>
-                <p>June 2016</p>
-            </li>
-        </ul>
+        <React.Fragment>
+            <div className={ActivityStyle.activities}>
+                <div className={ActivityStyle.table}>
+                    <div>Experience</div>
+                    <div>
+                        <ul><li>NASA JPL</li><li>Intern, Human Centered Designer II</li></ul>
+                        <p>2019 - Current</p>
+                    </div>
+                    <div>
+                        <ul><li>Emulate</li><li>Associate Product Designer</li></ul>
+                        <p>2016-2018</p>
+                    </div>
+                </div>
+                <div className={ActivityStyle.table}>
+                    <div>Education</div>
+                    <div>
+                        <ul><li>MFA Media Design Practices</li><li>ArtCenter College of Design</li></ul>
+                        <p>2018-2020</p>
+                    </div>
+                    <div>
+                        <ul><li>BS Mechanical Engineering</li><li>Olin College of Engineering</li></ul>
+                        <p>2012-2016</p>
+                    </div>
+                </div>
+                <div className={ActivityStyle.table}>
+                    <div>Exhibited Work</div>
+                    <div>
+                        <ul><li><a href="https://deepcity.ch">DeepCity</a></li><li><Link to="portfolio/unstable-label">Unstable Label</Link></li></ul>
+                        <p>March 2021</p>
+                    </div>
+                    <div>
+                        <ul><li><a href="https://abiertodediseno.mx/en/home-2020/">Abierto Mexicano de Diseño</a></li><li><Link to="portfolio/unstable-label">Unstable Label</Link></li></ul>
+                        <p>October 2020</p>
+                    </div>
+                    <div>
+                        <ul><li><a href="https://2020.primerconference.us/emerging-designer-exhibition">PRIMER 2020 Emerging Designer Exhibition</a></li><li><Link to="portfolio/unstable-label">Unstable Label</Link></li></ul>
+                        <p>July 2020</p>
+                    </div>
+                    <div>
+                        <ul><li>ArtCenter Grad Show 2020</li><li><Link to="portfolio/unstable-label">Unstable Label</Link></li></ul>
+                        <p>May 2020</p>
+                    </div>
+                    <div>
+                        <ul><li>ArtCenter MDP WIP Show 2019</li><li><Link to="portfolio/machined-data">Machined Data</Link></li></ul>
+                        <p>December 2019</p>
+                    </div>
+                    <div>
+                        <ul><li><a href="https://vimeo.com/329479367">Wobbly Realities Livestream</a></li><li><Link to="portfolio/machine-edit-cooking-show">Machine-Edit Cooking Show</Link></li></ul>
+                        <p>March 2019</p>
+                    </div>
+                    <div>
+                        <ul><li>ArtCenter MDP WIP Show 2018</li><li><Link to="portfolio/roaming-view">Roaming View</Link></li></ul>
+                        <p>December 2018</p>
+                    </div>
+                </div>
+            </div>
+
+        </React.Fragment>
+
     )
 }

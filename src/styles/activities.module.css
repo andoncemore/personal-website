@@ -1,72 +1,54 @@
-.list{
-    display: block;
-    margin-bottom: 1em;
-    padding-left: 1.5em;
-    list-style: disc;
-    font-family: 'DM Sans';
+.activities{
+    margin-top:50px;
+}
+
+.table{
     font-size: 16px;
+    font-family: 'DM Sans';
+    margin-top: 24px;
 }
 
-.list li{
-    margin-top: 0.125em;
-    line-height: 1.4;
-    /* display: flex; */
+.table > div:first-child{
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-bottom: 4px;
 }
 
-.list li > a{
+.table > *:not(:nth-last-of-type(1)){
+    border-bottom: 1px solid #B6B6B6;
+}
+
+.table > *:not(:nth-of-type(1)){
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 6px 0;
+}
+
+.table ul{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.table a{
+    font-weight: 400;
+    color: var(--body-content);
+    text-decoration: underline 1px solid var(--link-color);
+    transition: color 150ms ease-in-out;
+}
+.table a:hover{
     color: var(--link-color);
+    text-decoration: underline 2px solid var(--link-color);
 }
 
-.list li > *{
-    display: inline-block;
-    color: var(--minor-content);
+.table p{
+    margin: 0;
+    color: var(--minor-content) !important;
+    font-size: 0.9em;
+    margin-bottom: 0 !important;
 }
 
-
-.list li > *:before{
+.table ul > li:not(:nth-last-of-type(1)):after{
     content: '•';
-    padding: 0 5px;
-    background: none;
-    text-decoration: none;
-    color: var(--minor-content);
+    margin: 0 8px;
 }
-
-.list li > *:first-child:before{
-    all: unset;
-    content: none;
-}
-
-.list li > *:first-child{
-    font-weight: 500;
-}
-
-.list li > p:first-child{
-    color: var(--main-content);
-}
-
-
-.list li > a:nth-child(2){
-    margin-left: 4px;
-    font-weight: 500;
-    font-size: 14px;
-    color: var(--minor-content);
-    background: var(--minor-background);
-    padding: 0 4px;
-    transform: color 150ms ease;
-    /* opacity: 0.5; */
-
-}
-
-.list li > a:nth-child(2):hover{
-    text-decoration: none;
-    color: var(--main-content);
-}
-
-.list li > a:nth-child(2):before{
-    all: unset;
-
-}
-/* .list li > a:nth-child(2):after{
-    all: unset;
-    content: ']'
-} */

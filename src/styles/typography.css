@@ -79,7 +79,7 @@ figcaption{
     margin-top: 0.2em;
 }
 
-del{
+del, mark{
     text-decoration: none;
     background: var(--highlight-color);
     padding: 0 0.15em;

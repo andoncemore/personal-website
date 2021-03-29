@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import LandingStyles from '../styles/homestyles.module.css'
 import Img from "gatsby-image"
-import Activities from '../components/activities'
+
 
 const ContentGrid = () => {
   const data = useStaticQuery(graphql`
@@ -31,8 +31,8 @@ const ContentGrid = () => {
               title
               thumbnail {
                 childImageSharp {
-                  fluid(maxHeight: 85, maxWidth: 181, grayscale: true) {
-                    ...GatsbyImageSharpFluid
+                  fluid(maxWidth: 350, grayscale: true) {
+                    ...GatsbyImageSharpFluid_tracedSVG
                   }
                 }
               }
@@ -52,8 +52,8 @@ const ContentGrid = () => {
               date(formatString: "YYYY")
               thumbnail {
                 childImageSharp {
-                  fluid(maxHeight: 150, maxWidth: 321) {
-                    ...GatsbyImageSharpFluid
+                  fluid(maxWidth: 650, grayscale: true) {
+                    ...GatsbyImageSharpFluid_tracedSVG
                   }
                 }
               }
@@ -64,50 +64,58 @@ const ContentGrid = () => {
     }
   `)
   return(
-      <div className={LandingStyles.portfolioContent} id="projects">
-          <div>
-            <div className={LandingStyles.divider}>
-                <h2><span>Projects</span></h2>
-            </div>
-            {data.featured.edges.map((edge) => 
-                <Link className={LandingStyles.featuredProject} to={edge.node.fields.slug}>
-                    <div className={LandingStyles.featuredImage}>
-                        <Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height: "100%"}} />
+      <div className={LandingStyles.portfolioContainer} id="projects">
+        {/* <h1><span className={LandingStyles.underline}>Projects</span></h1> */}
+        <div className={LandingStyles.projectGrid}>
+          {data.featured.edges.map((edge) => 
+              <Link className={LandingStyles.featuredProject} to={edge.node.fields.slug}>
+                  <div className={LandingStyles.image}>
+                    <div className={LandingStyles.sizing}>
+                      <div><Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height:"100%"}} imgStyle={{objectFit: "contain"}} /></div>
                     </div>
-                    <div className={LandingStyles.featuredContent}>
-                        <h4>{edge.node.frontmatter.date}</h4>
-                        <h1>{edge.node.frontmatter.title}</h1>
-                        <p>{edge.node.frontmatter.shortDescription}</p>
-                    </div>
-                </Link>
-            )}
-            <div className={LandingStyles.smallProjectGrid}>
-                {data.notFeatured.edges.map((edge) => 
-                    <Link className={LandingStyles.smallProject} to={edge.node.fields.slug}>
-                        <div className={LandingStyles.smallImage}>
-                            <Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height: "100%"}} />
-                        </div>
-                        <h1>{edge.node.frontmatter.title}</h1>
-                    </Link>
-                )}
-            </div>
-          </div>
-          <div>
-            <div className={LandingStyles.divider}>
-                <h2><span>Process Case Studies</span></h2>
-            </div>
-            {data.caseStudies.edges.map((edge) => 
-                <Link className={LandingStyles.caseStudy} to={edge.node.fields.slug}>
-                    <h4>{edge.node.frontmatter.date}</h4>
+                  </div>
+                  <div className={LandingStyles.description}>
+                      <h1>{edge.node.frontmatter.title}</h1>
+                      <ul><li>{edge.node.frontmatter.date}</li></ul>
+                      <p>{edge.node.frontmatter.shortDescription}</p>
+                  </div>
+              </Link>
+          )}
+          {data.caseStudies.edges.map((edge) => 
+              <Link className={LandingStyles.caseStudy} to={edge.node.fields.slug}>
+                  <div className={LandingStyles.description}>
                     <h1>{edge.node.frontmatter.title}</h1>
                     <p>{edge.node.frontmatter.shortDescription}</p>
-                </Link>
-            )}
-            <div className={LandingStyles.divider}>
-                <h2><span>Exhibitions, Writing, Etc.</span></h2>
-            </div>  
-            <Activities />
-          </div>
+                  </div>
+              </Link>
+          )}
+        </div>
+        <div className={`${LandingStyles.projectGrid} ${LandingStyles.small}`}>
+          {data.notFeatured.edges.map((edge) => 
+              <Link className={LandingStyles.smallProject} to={edge.node.fields.slug}>
+                  <div className={LandingStyles.image}>
+                      <div className={LandingStyles.sizing}>
+                        <div><Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height: "100%"}} imgStyle={{objectFit: "contain"}} /></div>
+                      </div>
+                  </div>
+                  <h1>{edge.node.frontmatter.title}</h1>
+              </Link>
+          )}
+        </div>
+        <svg width="900" height="600" viewBox="0 0 900 600" style={{position: 'absolute', height: 0}}>
+            <filter id="myfilter">
+                <feColorMatrix type="matrix" values=".33 .33 .33 0 0
+                .33 .33 .33 0 0
+                .33 .33 .33 0 0
+                 0   0   0  1 0">
+                </feColorMatrix>
+                <feComponentTransfer color-interpolation-filters="sRGB">
+                <feFuncR type="table" tableValues=".25490196  1"></feFuncR>
+                    <feFuncG type="table" tableValues=".32941176  1"></feFuncG>
+                    <feFuncB type="table" tableValues=".90980392  1"></feFuncB>
+                </feComponentTransfer>
+            </filter>
+        </svg>
       </div>
   )
 }

@@ -1,3 +1,5 @@
-I’m a designer, researcher and [critical technologist](https://google.com) using design and strategic prototyping to wrangle with the messy realities of complex systems. I work best in the early stages of the design process: conducting and making sense of research, ~~identifying areas of opportunity~~, and storytelling through prototyping.
+I help teams build to learn. Whether it’s strategic foresight or city planning, I make things in the early, productively messy stages of research. I’m interested in the moments when groups of people tackle big questions. I design and prototype across scales to assist groups in making ideas concrete, approachable, and comprehensible.
 
-I’m a designer, researcher and [critical technologist](https://google.com) using design and strategic prototyping to wrangle with the messy realities of complex systems. I work best in the early stages of the design process: conducting and making sense of research, ~~identifying areas of opportunity~~, and storytelling through prototyping.
+With training in mechanical engineering, visual design and writing code, as well as experience in navigating complexity in technical and social systems, I’m comfortable in many “how” contexts. I’m motivated by a similarly wide range of “why” challenges: equitable futures, sustainable infrastructure, civic technologies, and something else.
+
+I’m an experienced collaborator, and I’m seeking more opportunities to turn systems thinking into tangible stuff.
