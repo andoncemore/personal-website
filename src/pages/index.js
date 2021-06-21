@@ -26,7 +26,7 @@ export default function Home({data}) {
 
 export const query = graphql`
   query {
-    desktopLanding: allFile(filter: {base: {eq: "landing.png"}}) {
+    desktopLanding: allFile(filter: {base: {eq: "landing-colored.png"}}) {
       edges {
         node {
           childImageSharp {

@@ -34,11 +34,13 @@
     font-weight: 400;
     color: var(--body-content);
     text-decoration: underline 1px solid var(--link-color);
+    -webkit-text-decoration: underline;
     transition: color 150ms ease-in-out;
 }
 .table a:hover{
     color: var(--link-color);
     text-decoration: underline 2px solid var(--link-color);
+    -webkit-text-decoration: underline;
 }
 
 .table p{

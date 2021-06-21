@@ -1,14 +1,17 @@
 ---
 date: 2018-07
-title: "Study Manager Design Process"
-shortDescription: Developing the design for Study Manager
-tags: [Emulate]
+title: "Developing an app concept into a fully realized vision"
+shortDescription: Developing the strategic vision and detailed UX design for enterprise software in the biotech context. 
+tags: [Study Manager, Emulate]
 description: >
- Some sort of description right here.
+ The opportunity for a Study Manager Application emerged from exploratory design research looking into biologists experiences working with the Organs-on-Chips technology. 
+ 
+ 
+ This case study walks through the process of taking this initial concept and turning it into a fully defined strategic vision as well as detailed designs that could support a variety of biologists' workflows. 
  
 ---
 
-# Exploring the Area of Opportunity
+### Exploring the Area of Opportunity
 The goal of this initial phase was to conduct focused research on how biologists currently planned and documented their experiments.
 
 ![](./study-manager-case-study-02.png#grid-column=left / right)
@@ -30,7 +33,7 @@ Given the design brief focused on experiment design, I conducted some initial in
 
 ![](./study-manager-case-study-01.png#grid-column=left / right)
 
-# Works Like Prototype
+### Works Like Prototype
 The goal of this next phase of work was to build a working prototype that could be tested live within our internal labs.
 
 ![](./study-manager-case-study-08.png#grid-column=left / right)
@@ -53,7 +56,7 @@ Based on these UX tests, we found that the system architecture wasn’t working 
 
 
 
-# Refining Concept & Vision
+### Refining Concept & Vision
 Following the failure of the working prototype, we took a step back to refine the system and information architecture before restarting work on functional prototypes. I did this by taking real data and more biologists’ workflow, and trying to fit it into the proposed software architecture.
 
 ![](./study-manager-case-study-16.png#grid-column=wide-left / wide-right)

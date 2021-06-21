@@ -13,6 +13,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-plugin-anchor-links",

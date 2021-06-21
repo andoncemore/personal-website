@@ -11,6 +11,8 @@ description: >
  
  
  I was the primary designer and project lead for this product, having developed it out of an exploratory design discovery process. Over the course of a year, I created refined designs and developed the larger strategy for the product eventually handing the project off to a design and development team for prototyping.  
+info:
+- "[Process Case Study](/case-studies/study-manager-process/)"
 
 ---
 
