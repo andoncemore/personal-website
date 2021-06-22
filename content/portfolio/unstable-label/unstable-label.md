@@ -49,9 +49,9 @@ One of the key features that was added to this prototype was a way to see a bran
 
 ![](./first-prototype-04.png#grid-column=left / right)
 
-![](./first-prototype-02.JPG#grid-column=left / center)
+![](./first-prototype-02.jpg#grid-column=left / center)
 
-![](./first-prototype-03.JPG#grid-column=center / right)
+![](./first-prototype-03.jpg#grid-column=center / right)
 
 This version of the app was used in a gallery show, in combination with a "workshop" style deconstruction of the relabeling features of the app. The gallery show and presentation provided opportunities for feedback:
 

@@ -34,9 +34,9 @@ The work started by looking at the form and function of existing data collection
 
 Using cardboard and simple electronics, I began to prototype the shape and feel of different data collection devices. Using these early prototypes, I began to develop rough stories of the context in which these devices might be used, which in turn, influenced the design of the devices. 
 
-![](./process_01.JPG#grid-column=wide-left / center)
+![](./process_01.jpg#grid-column=wide-left / center)
 
-![](./cardboard.JPG#grid-column=center / wide-right)
+![](./cardboard.jpg#grid-column=center / wide-right)
 
 ![](./cad.png#grid-column=wide-left / wide-right)
 

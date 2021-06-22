@@ -2,7 +2,7 @@
 date: 2019-08
 title: How can prototyping facilitate design discovery?
 shortDescription: Using prototyping as a design discovery method to explore and make sense of machine learning in the civic context. 
-featuredImage: hero.PNG
+featuredImage: hero.png
 tags: [Unstable Label, MFA Thesis]
 description: >
  Within the design process, prototyping is most often used once an initial concept has been identified, heling to iteratively define that concept. 
@@ -84,7 +84,7 @@ These diagrams were not primarily designed as communication tools. Instead, they
 
 ### Developing Scenarios
 
-![](./synthesis.PNG#grid-column=left / right)
+![](./synthesis.png#grid-column=left / right)
 
 The next phase of work was to do some synthesis of the broad range of research by creating specific scenarios that would put some of those initial explorations into particular contexts as a way to dig deeper into the subject matter. 
 
@@ -136,7 +136,7 @@ While these scenarios largely just communicate a critique of machine learning sy
 
 ### Moving from Research to Concept
 
-![](./concept.PNG#grid-column=left / right)
+![](./concept.png#grid-column=left / right)
 
 Up until this part of the process, the design work was largely about exploring and critiquing existing machine learning systems. The next step was to pull together all the insights from those explorations into new concepts for machine learning. 
 

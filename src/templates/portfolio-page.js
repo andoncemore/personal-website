@@ -40,11 +40,11 @@ export default function Template({data}) {
         const allFluidImages = Object.assign({}, ...data.fluidImages.edges.map((img) => {
             return {[img.node.childImageSharp.fluid.originalName]: parseSrcset(img.node.childImageSharp.fluid.srcSet, img.node.childImageSharp.fluid.aspectRatio)};
           }));
-        
+        console.log(allFluidImages);
         let domImages = articleContent.current.querySelectorAll(".gatsby-resp-image-wrapper");
-        // console.log(domImages);
         itemRef.current.items = Array.from(domImages).map((elm,index) => {
             let filename = elm.querySelector("img").getAttribute('src').split("/").pop()
+            console.log(filename)
             let queriedImage = allFluidImages[filename];
             console.log(queriedImage);
             let item = {fluidImages:allFluidImages[filename]};
