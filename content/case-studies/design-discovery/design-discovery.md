@@ -191,7 +191,7 @@ Some of the design explorations I went through can be seen in the sketches as we
 
 #### Final Prototype
 
-The final prototype was developed into a [working prototype](https://unstable-label.glitch.me/) with an associated [user manual](https://unstable-manual.netlify.app), which explains to users how the system works. Some of the key changes and additions made to the design are outlined below.
+The final prototype was developed into a [working prototype](https://unstable-label.glitch.me/) with an associated [user manual](https://unstable-manual.adit.design), which explains to users how the system works. Some of the key changes and additions made to the design are outlined below.
 
 ![](./final_prototype_01.jpg#grid-column=left / right)
 

@@ -14,14 +14,14 @@ description: >
 info:
 - "[Process Case Study](/case-studies/design-discovery/)"
 - "[Prototype Application](https://unstable-label.glitch.me)"
-- "[Project Essay](http://unstable-manual.aditd.me)"
+- "[Project Essay](http://unstable-manual.adit.design)"
 - PRIMER 2020, Emerging Designer 2nd Place Winner
 - Exhibited at Abierto Mexicano Diseño 2020
 - Exhibited at DeepCity 2021
 
 ---
 
-## **Brief:** If machine learning could be interpreted as a form of worldbuilding, how could you use to to generate imaginary worlds?
+## **Brief:** If machine learning could be interpreted as a form of worldbuilding, how could you use it to generate imaginary worlds?
 
 *(For more details on how this brief emerged as a part of my thesis work, see the [process case study](/case-studies/design-discovery/))*
 
@@ -80,7 +80,7 @@ Some key additions were:
 
 ### Final Design
 
-*For a more detailed look at the final design, and a more in-depth look at the system, visit the [user manual](http://unstable-manual.aditd.me).*
+*For a more detailed look at the final design, and a more in-depth look at the system, visit the [user manual](http://unstable-manual.adit.design).*
 
 #### System Overview
 
