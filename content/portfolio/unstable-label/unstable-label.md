@@ -14,7 +14,7 @@ description: >
 info:
 - "[Process Case Study](/case-studies/design-discovery/)"
 - "[Prototype Application](https://unstable-label.glitch.me)"
-- "[Project Essay](http://unstable-manual.adit.design)"
+- "[Interactive User-Manual/Essay](http://unstable-manual.adit.design)"
 - PRIMER 2020, Emerging Designer 2nd Place Winner
 - Exhibited at Abierto Mexicano Diseño 2020
 - Exhibited at DeepCity 2021
