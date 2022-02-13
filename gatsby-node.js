@@ -9,7 +9,22 @@ exports.onPreInit = () => {
 
 exports.onCreateNode = ({node, getNode, actions}) => {
     const {createNodeField } = actions;
-    
+    if("dir" in node){
+      if(node.dir.includes("content/sketchbook") && node.extension === "js"){
+        const slug = createFilePath({node,getNode}).split("/").filter(e => e != '').splice(-1)[0];
+        console.log(slug);
+        createNodeField({
+          node,
+          name: 'collection',
+          value: 'sketchbook',
+        });
+        createNodeField({
+            node,
+            name: 'slug',
+            value: `/sketchbook/${slug}/`
+        });
+      }
+    }
 
     // Add some attributes to the Markdown Files
     if(node.internal.type === `MarkdownRemark`){
@@ -18,6 +33,7 @@ exports.onCreateNode = ({node, getNode, actions}) => {
         
         // const slug = createFilePath({node,getNode})
         const slug = createFilePath({node,getNode}).split("/").filter(e => e != '').splice(-1)[0];
+        console.log(slug, collection);
         createNodeField({
             node,
             name: 'collection',
@@ -30,7 +46,7 @@ exports.onCreateNode = ({node, getNode, actions}) => {
         });
 
         // Enabling markdown written into the YAML Frontmatter
-        if(collection === "portfolio" || collection === "case-studies"){
+        if(collection === "portfolio" || collection === "case-studies" || collection === "sketchbook"){
             // console.log(JSON.stringify(node.frontmatter, null, 4))
             if("description" in node.frontmatter){
               let htmlresult = md.render(node.frontmatter.description);
@@ -95,13 +111,29 @@ exports.createPages = async ({ actions, graphql }) => {
           }
         }
       }
-      notes: allMarkdownRemark(filter: {fields: {collection: {eq: "portfolio"}}}) {
+      sketchbookmd: allMarkdownRemark(filter: {fields: {collection: {eq: "sketchbook"}}}) {
         edges {
           node {
             id
             fields {
               slug
             }
+            parent {
+              ... on File {
+                name
+              }
+            }
+          }
+        }
+      }
+      sketchbookfiles: allFile(filter: {fields: {collection: {eq: "sketchbook"}}}) {
+        edges {
+          node {
+            id
+            fields {
+              slug
+            }
+            absolutePath
           }
         }
       }
@@ -131,12 +163,22 @@ exports.createPages = async ({ actions, graphql }) => {
             }
         });
     })
-    // result.data.notes.edges.forEach(({node}) =>{
-    //     createPage({
-    //       path: node.fields.slug,
-    //       component: blogPostTemplate
-    //     });
-    // })
+    result.data.sketchbookmd.edges.forEach(({node}) =>{
+        createPage({
+          path: node.fields.slug,
+          component: blogPostTemplate,
+          context:{
+            slug: node.fields.slug,
+            name: node.parent.name
+          }
+        });
+    })
+    result.data.sketchbookfiles.edges.forEach(({node}) =>{
+      createPage({
+        path: node.fields.slug,
+        component: node.absolutePath,
+      });
+    })
 //   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
 //     createPage({
 //       path: node.frontmatter.path,

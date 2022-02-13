@@ -67,8 +67,8 @@ const ContentGrid = () => {
       <div className={LandingStyles.portfolioContainer} id="projects">
         {/* <h1><span className={LandingStyles.underline}>Projects</span></h1> */}
         <div className={LandingStyles.projectGrid}>
-          {data.featured.edges.map((edge) => 
-              <Link className={LandingStyles.featuredProject} to={edge.node.fields.slug}>
+          {data.featured.edges.map((edge, index) => 
+              <Link key={index} className={LandingStyles.featuredProject} to={edge.node.fields.slug}>
                   <div className={LandingStyles.image}>
                     <div className={LandingStyles.sizing}>
                       <div><Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height:"100%"}} imgStyle={{objectFit: "contain"}} /></div>
@@ -81,8 +81,8 @@ const ContentGrid = () => {
                   </div>
               </Link>
           )}
-          {data.caseStudies.edges.map((edge) => 
-              <Link className={LandingStyles.caseStudy} to={edge.node.fields.slug}>
+          {data.caseStudies.edges.map((edge, index) => 
+              <Link key={index} className={LandingStyles.caseStudy} to={edge.node.fields.slug}>
                   <div className={LandingStyles.description}>
                     <h1>{edge.node.frontmatter.title}</h1>
                     <p>{edge.node.frontmatter.shortDescription}</p>
@@ -91,8 +91,8 @@ const ContentGrid = () => {
           )}
         </div>
         <div className={`${LandingStyles.projectGrid} ${LandingStyles.small}`}>
-          {data.notFeatured.edges.map((edge) => 
-              <Link className={LandingStyles.smallProject} to={edge.node.fields.slug}>
+          {data.notFeatured.edges.map((edge, index) => 
+              <Link key={index} className={LandingStyles.smallProject} to={edge.node.fields.slug}>
                   <div className={LandingStyles.image}>
                       <div className={LandingStyles.sizing}>
                         <div><Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height: "100%"}} imgStyle={{objectFit: "contain"}} /></div>
@@ -109,7 +109,7 @@ const ContentGrid = () => {
                 .33 .33 .33 0 0
                  0   0   0  1 0">
                 </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
+                <feComponentTransfer colorInterpolationFilters="sRGB">
                 <feFuncR type="table" tableValues=".25490196  1"></feFuncR>
                     <feFuncG type="table" tableValues=".32941176  1"></feFuncG>
                     <feFuncB type="table" tableValues=".90980392  1"></feFuncB>

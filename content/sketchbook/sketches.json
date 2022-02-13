@@ -1,0 +1,32 @@
+{
+    "blackout-poems": {
+        "title": "Blackout Poems",
+        "link": "https://google.com",
+        "description": "Here is a description of what I'm thinking about"
+    },
+    "manual-learning": {
+        "title": "Manual Learning Zine",
+        "link": "https://google.com",
+        "description": "Here is a description of what I'm thinking about"
+    },
+    "predpol-is":{
+        "title": " Predpol Is Zine",
+        "link": "https://freerads.org/2019/10/11/a-guide-to-predpol-and-dismantling-it/",
+        "description": "Here is a description of what I'm thinking about"
+    },
+    "reciept-cardsorting":{
+        "title": "Cardsorting with Receipts",
+        "path": "/reciept-cardsorting",
+        "description": "Here is a description"
+    },
+    "algorithm-circle":{
+        "title": "Algorithm Circle",
+        "path": "/algorithm-circle",
+        "description": "Here is a description of this thing here."
+    },
+    "printer-chat":{
+        "title": "Printer Chat",
+        "link": "https://printer-chat.adit.design",
+        "description": "Here is a description of this thing here."
+    }
+}

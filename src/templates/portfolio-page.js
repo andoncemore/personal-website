@@ -9,7 +9,7 @@ import PhotoSwipeWrapper from '../components/photoSwipeWrapper'
 import ResponsiveIframe from '../components/responsive_iframe'
 import SEO from "../components/SEO"
 
-export default function Template({data}) {
+export default function Template({data, location}) {
   // This is the data
   const { posts: post } = data // data.markdownRemark holds your post data
   
@@ -37,16 +37,17 @@ export default function Template({data}) {
   useEffect(() => {
     //   if(itemRef.current.items.length === 0){
         // const allImages = Object.assign({}, ...data.images.edges.map((x) => ({[x.node.childImageSharp.fixed.originalName]: x.node.childImageSharp.fixed })));
-        const allFluidImages = Object.assign({}, ...data.fluidImages.edges.map((img) => {
+        let cleanedImages = data.fluidImages.edges.filter((img) => img.node.childImageSharp !== null);
+        const allFluidImages = Object.assign({}, ...cleanedImages.map((img) => {
             return {[img.node.childImageSharp.fluid.originalName]: parseSrcset(img.node.childImageSharp.fluid.srcSet, img.node.childImageSharp.fluid.aspectRatio)};
           }));
-        console.log(allFluidImages);
+        // console.log(allFluidImages);
         let domImages = articleContent.current.querySelectorAll(".gatsby-resp-image-wrapper");
         itemRef.current.items = Array.from(domImages).map((elm,index) => {
             let filename = elm.querySelector("img").getAttribute('src').split("/").pop()
-            console.log(filename)
+            // console.log(filename)
             let queriedImage = allFluidImages[filename];
-            console.log(queriedImage);
+            // console.log(queriedImage);
             let item = {fluidImages:allFluidImages[filename]};
             item['elt'] = elm.querySelector("img");
             // let item = {src: queriedImage.src, w: queriedImage.width, h: queriedImage.height};
@@ -57,7 +58,7 @@ export default function Template({data}) {
             elm.onclick = (event) => {
                 event.preventDefault();
                 handleOpen(index);
-                console.log("Clicked on the image");
+                // console.log("Clicked on the image");
             }
             return item ;
         })
@@ -72,7 +73,7 @@ export default function Template({data}) {
   }
 
   return (
-    <Article>
+    <Article location={location}>
         <SEO title={post.frontmatter.title ? post.frontmatter.title : ""} description={post.frontmatter.shortDescription} />
         {post.frontmatter.featuredImage && 
             <Img className={ImageStyles.wide} fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />}

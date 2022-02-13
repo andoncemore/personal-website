@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from 'gatsby'
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+import Navbar from './navbar'
 import "@fontsource/ibm-plex-serif/400.css"
 import "@fontsource/ibm-plex-serif/600.css"
 import "@fontsource/ibm-plex-serif/400-italic.css"
@@ -12,7 +11,7 @@ import "@fontsource/dm-sans/400-italic.css"
 import "../styles/site.css"
 import NavStyles from "../styles/navbar.module.css"
 
-export default function Layout({ children, className }){
+export default function Layout({ children, className, location }){
     // const whatLocation = props => {
     //     const currentLocation = props.pathname;
     //     if(currentLocation.includes('case-studies') || currentLocation.includes('portfolio')){
@@ -22,15 +21,7 @@ export default function Layout({ children, className }){
 
     return(
         <React.Fragment>
-            <nav className={`${NavStyles.navbar} ${className === 'dark' ? NavStyles.dark : ""}`}>
-                <Link className={NavStyles.logo} to="/"><span className={NavStyles.underline}>adit</span></Link>
-                <div className={NavStyles.siteNav}>
-                    <AnchorLink to="/#projects">projects</AnchorLink>
-                    {/* <Link getProps={({ location }) => whatLocation(location)} to="/">projects</Link> */}
-                    {/* <Link activeClassName={NavStyles.active} partiallyActive={true} to="/in-progress/">in progress</Link> */}
-                    <AnchorLink to="/#aboutme">about me</AnchorLink>
-                </div>
-            </nav>
+            <Navbar className={className} location={location} />
             {children}
             <footer className={NavStyles.navbar}>
                 <div className={NavStyles.siteNav}>

@@ -17,6 +17,14 @@ export default function Activities(){
                         <ul><li>Emulate</li><li>Associate Product Designer</li></ul>
                         <p>2016-2018</p>
                     </div>
+                    <div>
+                        <ul><li>Superflux</li><li>Product Designer</li></ul>
+                        <p>Summer 2016</p>
+                    </div>
+                    <div>
+                        <ul><li>Onshape</li><li>User Experience Intern</li></ul>
+                        <p>Summer 2015</p>
+                    </div>
                 </div>
                 <div className={ActivityStyle.table}>
                     <div>Education</div>
@@ -31,6 +39,10 @@ export default function Activities(){
                 </div>
                 <div className={ActivityStyle.table}>
                     <div>Exhibited Work</div>
+                    <div>
+                        <ul><li><a href="https://art.metro.net/event/broken-news/">Union Station, Los Angeles</a></li><li><Link to="portfolio/broken-news">Broken News</Link></li></ul>
+                        <p>October 2021</p>
+                    </div>
                     <div>
                         <ul><li><a href="https://deepcity.ch">DeepCity</a></li><li><Link to="portfolio/unstable-label">Unstable Label</Link></li></ul>
                         <p>March 2021</p>

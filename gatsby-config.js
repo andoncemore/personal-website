@@ -3,6 +3,9 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   /* Your site config here */
@@ -44,16 +47,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-page-creator`,
-      options: {
-        path: `${__dirname}/content/notes`,
-      },
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `notes`,
-        path: `${__dirname}/content/notes`,
+        name: `sketchbook`,
+        path: `${__dirname}/content/sketchbook`,
       },
     },
     {
@@ -92,6 +89,7 @@ module.exports = {
         icon: `src/icon.png`
       }
     },
+    'gatsby-plugin-breakpoints',
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`
   ],

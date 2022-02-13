@@ -7,15 +7,16 @@ import AboutMe from '../components/aboutme'
 import LandingStyles from '../styles/homestyles.module.css'
 import SEO from "../components/SEO"
 
-export default function Home({data}) {
+export default function Home({data, location}) {
   return (
-    <Layout className="dark">
+    <Layout className="dark" location={location}>
       <SEO />
       <div className={LandingStyles.heroContainer}>
         <Img fluid={data.desktopLanding.edges[0].node.childImageSharp.fluid} style={{height: "100%"}} />
         <div className={LandingStyles.intro}>
           <h1>Hi, I'm Adit.</h1>
-          <p>I'm a designer, researcher, and critical technologist using design and technologies of all sorts to wrangle with the messy realities of complex systems.</p>
+          <p>I'm a designer, researcher, and critical technologist immersed in the messy realities of complex systems, turning systems thinking into tangible stuff.</p>
+          {/* <p>I'm a designer, researcher, and critical technologist using design and technologies of all sorts to wrangle with the messy realities of complex systems.</p> */}
         </div>
       </div>
       <ContentGrid />

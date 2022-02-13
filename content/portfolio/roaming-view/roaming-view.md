@@ -3,7 +3,7 @@ date: 2019-02
 title: Roaming View
 shortDescription: Exploring civic mapping and wayfinding in Mexico City through creative technology. 
 thumbnail: thumbnail.png
-main: true
+main: false
 featuredImage: hero.png
 tags: ["2019", "Individual Project"]
 description: >

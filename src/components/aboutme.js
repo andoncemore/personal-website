@@ -30,7 +30,7 @@ export default function AboutMe(){
 
     return(
         <div className={AboutStyles.container} id="aboutme">
-            <div class={AboutStyles.face}>
+            <div className={AboutStyles.face}>
               <Img fluid={data.desktopLanding.edges[0].node.childImageSharp.fluid} />
             </div>
             <div className={AboutStyles.aboutContent}>

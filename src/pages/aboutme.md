@@ -1,5 +1,5 @@
-I help teams build to learn. Whether it’s strategic foresight or city planning, I make things in the early, productively messy stages of research. I’m interested in the moments when groups of people tackle big questions. I design and prototype across scales to assist groups in making ideas concrete, approachable, and comprehensible.
+I help teams build to learn. Whether it’s strategic foresight or UX research and design, I make things in the early, productively messy stages of research. I’m interested in the moments when groups of people tackle big questions. I design and prototype across scales to assist groups in making ideas concrete, approachable, and comprehensible.
 
-With training in mechanical engineering, visual design and writing code, as well as experience in navigating complexity in technical and social systems, I’m comfortable in many “how” contexts. I’m motivated by a similarly wide range of “why” challenges: equitable futures, sustainable infrastructure, civic technologies, and something else.
+With training in mechanical engineering, visual design and writing code, as well as experience in navigating complexity in technical and social systems, I’m comfortable in many “how” contexts. I’m motivated by a similarly wide range of “why” challenges: equitable futures, sustainable infrastructure, civic technologies, public memory, and more.
 
 I’m an experienced collaborator, and I’m seeking more opportunities to turn systems thinking into tangible stuff.
