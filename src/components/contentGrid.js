@@ -98,7 +98,7 @@ const ContentGrid = () => {
               </Link>
           )}
         </div>
-        <svg width="900" height="600" viewBox="0 0 900 600" style={{position: 'absolute', height: 0}}>
+        <svg style={{position: 'absolute', height: 0}}>
             <filter id="myfilter">
                 <feColorMatrix type="matrix" values=".33 .33 .33 0 0
                 .33 .33 .33 0 0

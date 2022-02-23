@@ -1,11 +1,10 @@
-import React, {useState, useEffect, useCallback} from "react"
+import React, {useState, useEffect} from "react"
 import { useStaticQuery, graphql } from 'gatsby'
 import Navbar from '../components/navbar'
 import Pannable from "../components/pannable"
 import Draggable from "../components/draggable"
 import Sketch from "../components/sketch"
 import Sticky from "../components/sticky"
-import {getImage} from "gatsby-plugin-image"
 import "@fontsource/ibm-plex-serif/400.css"
 import "@fontsource/ibm-plex-serif/600.css"
 import "@fontsource/ibm-plex-serif/400-italic.css"
