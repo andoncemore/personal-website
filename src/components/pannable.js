@@ -128,7 +128,7 @@ function Pannable({ constraints, children, zoom }) {
   const bind = useDrag(
     ({ delta, first, last, type, target, cancel }) => {
       console.log(target);
-      if(target.className == "pan_container"){
+      if(target.className === "pan_container"){
         setCamera(camera => panCamera(camera, -delta[0], -delta[1]));
       }
       else{

@@ -1,6 +1,6 @@
 ---
 date: 2018-07
-title: "Developing an app concept into a fully realized vision"
+title: "Developing an app concept into a comprehensive vision"
 shortDescription: Developing the strategic vision and detailed UX design for enterprise software in the biotech context. 
 tags: [Study Manager, Emulate]
 description: >
@@ -14,29 +14,31 @@ description: >
 ### Exploring the Area of Opportunity
 The goal of this initial phase was to conduct focused research on how biologists currently planned and documented their experiments.
 
-![](./study-manager-case-study-02.png#grid-column=left / right)
+![Wall covered in butcher paper and sticky notes that describe biologist's workflows. ](./study-manager-case-study-02.png '#grid-column=left / right')
 
-Given the design brief focused on experiment design, I conducted some initial interviews with one other designer. We interviewed eight people over the course of six informal lunch sessions, discovering more information about each scientist’s planning and experimentation process. These sessions helped us build an initial mental model for the process our software would integrate into. 
+Given the design brief focused on experiment design, I conducted some initial interviews with one other designer. We interviewed eight people over the course of six informal lunch sessions, discovering more information about each scientist’s planning and experimentation process. These sessions helped us build an initial mental model for the process our software would integrate into.
 
-![](./study-manager-case-study-03.png#grid-column=wide-left / center)
+![Digital workflow diagram with potential products mapped to it](./study-manager-case-study-03.png '#grid-column=wide-left / center')
 
-![](./study-manager-case-study-04.png#grid-column=center / wide-right)
+![Slide listing three key insights on "Why Scientists Make Study Plans"](./study-manager-case-study-04.png '#grid-column=center / wide-right')
+
+In conversations with Management stakeholders, their main priority was in centralizing data collection to enable machine learning. Biologists, on the other hand, were not at all motivated by this vision. Instead, their needs focused on better tools for experiment management. 
 
 ## Informal Interviews & Conversations *(6x 45min sessions)*
 
 
 ~~**Outcomes:**~~ From these interviews, I started building paper prototype screens, making comments on previous designs, and quickly iterating through ideas.
 
-![](./study-manager-case-study-05.png#grid-column=left / center)
+![Wireframe mockup of an initial study manager application showing a timeline](./study-manager-case-study-05.png '#grid-column=left / center')
 
-![](./study-manager-case-study-06.png#grid-column=center / right)
+![Wireframe mockup of an initial study manager application showing experimental groups](./study-manager-case-study-06.png#grid-column=center / right)
 
-![](./study-manager-case-study-01.png#grid-column=left / right)
+![Wireframes printed and pinned to the wall, covered in sticky notes](./study-manager-case-study-01.png '#grid-column=left / right')
 
 ### Works Like Prototype
 The goal of this next phase of work was to build a working prototype that could be tested live within our internal labs.
 
-![](./study-manager-case-study-08.png#grid-column=left / right)
+![A works-like prototype of a study manager application, on an iPad](./study-manager-case-study-08.png '#grid-column=left / right')
 
 The prototype we developed was made with a Framer frontend and a Firebase backend. I contributed a few elements of the Framer frontend, but it was mainly built by two other members of the team. My role was to continue to conduct research on existing methods of study planning and execution, and to iterate on static designs of the necessary components.
 
@@ -46,11 +48,11 @@ After a summer of building the prototype, we showed the prototype to seven peopl
 
 ## Scripted UX Tests *(7x 60min sessions)*
 
-![](./study-manager-case-study-10.png#grid-column=left / center)
+![Notes from a codesign activity with a user, scribbled onto a whiteboard](./study-manager-case-study-10.png '#grid-column=left / center')
 
-![](./study-manager-case-study-11.png#grid-column=center / right)
+![Notes from a codesign activity with a user, scribbled onto a whiteboard](./study-manager-case-study-11.png '#grid-column=center / right')
 
-Based on these UX tests, we found that the system architecture wasn’t working well. Upon further reflection, we realized more time could have been spent on paper prototypes before creating a works-like prototype. We jumped into prototyping too soon. 
+Based on these UX tests, we found that the system architecture wasn’t working well. Upon further reflection, we realized more time could have been spent on paper prototypes before creating a works-like prototype. We jumped into prototyping too soon.
 
 ~~**Outcomes:**~~ From this phase of work, the output was a slide deck for upper management, sharing our findings, and showing our vision for the project long term. The prototype was only the tip of the iceberg for an envisioned app ecosystem.
 
@@ -59,22 +61,22 @@ Based on these UX tests, we found that the system architecture wasn’t working 
 ### Refining Concept & Vision
 Following the failure of the working prototype, we took a step back to refine the system and information architecture before restarting work on functional prototypes. I did this by taking real data and more biologists’ workflow, and trying to fit it into the proposed software architecture.
 
-![](./study-manager-case-study-16.png#grid-column=wide-left / wide-right)
+![Detailed UI designs, showing the design of condition dialog boxes](./study-manager-case-study-16.png '#grid-column=wide-left / wide-right')
 
-![](./study-manager-case-study-12.png#grid-column=wide-left / center)
+![Detailed UI designs, showing the design of Readout Dialog Boxes, and a version management system for protocols](./study-manager-case-study-12.png '#grid-column=wide-left / center')
 
-![](./study-manager-case-study-13.png#grid-column=center / wide-right)
+![Document upload UX workflow](./study-manager-case-study-13.png '#grid-column=center / wide-right')
 
-![](./study-manager-case-study-14.png#grid-column=wide-left / center)
+![Diagram illustrating how protocol templates would operate](./study-manager-case-study-14.png '#grid-column=wide-left / center')
 
-![](./study-manager-case-study-15.png#grid-column=center / wide-right)
+![Diagram showing relationship between protocol and protocol deviations](./study-manager-case-study-15.png '#grid-column=center / wide-right')
 
 
 Throughout this process, I continued the research, trying to wrangle the complex topics and standardize the process to a point where they could fit into the application. Some of the outputs from this research was more process diagrams or information heirarchies:
 
-![](./study-manager-case-study-17.png#grid-column=wide-left / center)
+![Research diagram articulating the purpose of protocols as for either learning or recording](./study-manager-case-study-17.png '#grid-column=wide-left / center')
 
-![](./study-manager-case-study-20.png#grid-column=center / wide-right)
+![Breakdown of a protocol into  it's constituent parts](./study-manager-case-study-20.png '#grid-column=center / wide-right')
 
 It also involved collecting a variety of existing studies from powerpoint presentations, word documents, lab notebooks, and other sources, looking to see whether they mapped properly into the design. 
 
@@ -82,22 +84,22 @@ To test the new system architecture, instead of making a prototype, I made a car
 
 ## Informal Cardsorting *(3x 30min sessions)*
 
-![](./study-manager-case-study-18.png#grid-column=wide-left / center)
+![Sticky notes on a desk, categorizing and grouping different concepts](./study-manager-case-study-18.png#grid-column=wide-left / center)
 
-![](./study-manager-case-study-19.png#grid-column=center / wide-right)
+![Sticky notes and index cards spread out over a poster, prototyping the application architecture and users' mental models](./study-manager-case-study-19.png '#grid-column=center / wide-right')
 
 Once the architecture was validated through the cardsorting activity, I built an InVision walkthrough of the whole application. The screen were later styled by a UI designer to fit within the new software style guide being developed. 
 
 ~~**Outcomes:**~~ The final output was a series of slide decks that were also UX walkthroughs of each page of the application. There were also slides that defined terminology, as well as where future applications could connect. The project was approved by upper management to be sent out to external developers to be prototyped.
 
-![](./Study-Manager-01.png#grid-column=left / center)
+![UI Design showing how users would define and edit Experimental groups on mobile and desktop](./Study-Manager-01.png '#grid-column=left / center')
 
-![](./Study-Manager-02.png#grid-column=center / right)
+![UI design showing how users would initialize a study, and select a protocol](./Study-Manager-02.png '#grid-column=center / right')
 
-![](./Study-Manager-03.png#grid-column=left / center)
+![UI design showing how users would define and edit experimental groups](./Study-Manager-03.png '#grid-column=left / center')
 
-![](./Study-Manager-04.png#grid-column=center / right)
+![UI design showing a timeline of activities related to an experiment](./Study-Manager-04.png '#grid-column=center / right')
 
-![](./Study-Manager-05.png#grid-column=left / center)
+![UI design showing how users would add elements onto a timeline](./Study-Manager-05.png '#grid-column=left / center')
 
-![](./Study-Manager-06.png#grid-column=center / right)
+![UI design showing how users could upload results data to their study](./Study-Manager-06.png '#grid-column=center / right')

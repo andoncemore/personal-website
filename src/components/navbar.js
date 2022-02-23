@@ -1,7 +1,7 @@
-import React, {useState} from "react"
+import React from "react"
 import { Link } from 'gatsby'
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import NavStyles from "../styles/navbar.module.css"
+import {navbar, dark, logo, mobileNav, siteNav, active, underline, mobileToggle} from "../styles/navbar.module.css"
 import useDropdownMenu from 'react-accessible-dropdown-menu-hook';
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
@@ -33,22 +33,21 @@ export default function Navbar({className, location}){
     };
 
     const { buttonProps, itemProps, isOpen } = useDropdownMenu(3);
-    // const [mobile, setMobile] = useState(false);
     const breakpoints = useBreakpoint();
 
     return(
-        <nav className={`${NavStyles.navbar} ${className === 'dark' ? NavStyles.dark : ""}`}>
-            <Link className={NavStyles.logo} to="/"><span className={NavStyles.underline}>adit</span></Link>
-            <div className={(breakpoints.xs ? NavStyles.mobileToggle : "")}>
-                <button className={NavStyles.mobileNav} {...buttonProps}>
+        <nav className={`${navbar} ${className === 'dark' ? dark : ""}`}>
+            <Link className={logo} to="/"><span className={underline}>adit</span></Link>
+            <div className={(breakpoints.xs ? mobileToggle : "")}>
+                <button className={mobileNav} {...buttonProps}>
                     <p>{getActivePageName()}</p>
                     <svg height="24px" viewBox="0 0 12 20"><path d="M6.00005 12.6172L2.99775 8.69166L9.00234 8.69166L6.00005 12.6172Z"/></svg>
                 </button>
-                <div className={NavStyles.siteNav} style={{"visibility":((isOpen || !breakpoints.xs) ? "visible" : "hidden")}} role='menu'>
-                    <AnchorLink {...itemProps[0]} className={isActive("/#projects") || isActive("/portfolio") || isActive("/case-studies") ? NavStyles.active : "" } to="/#projects" >portfolio</AnchorLink>
+                <div className={siteNav} style={{"visibility":((isOpen || !breakpoints.xs) ? "visible" : "hidden")}} role='menu'>
+                    <AnchorLink {...itemProps[0]} className={isActive("/#projects") || isActive("/portfolio") || isActive("/case-studies") ? active : "" } to="/#projects" >portfolio</AnchorLink>
                     {/* <Link getProps={({ location }) => whatLocation(location)} to="/">projects</Link> */}
-                    <Link {...itemProps[1]} className={isActive("/sketchbook") ? NavStyles.active : "" } to="/sketchbook/">sketchbook</Link>
-                    <AnchorLink {...itemProps[2]} className={isActive("/#aboutme") ? NavStyles.active : "" } to="/#aboutme">about me</AnchorLink>
+                    <Link {...itemProps[1]} className={isActive("/sketchbook") ? active : "" } to="/sketchbook/">sketchbook</Link>
+                    <AnchorLink {...itemProps[2]} className={isActive("/#aboutme") ? active : "" } to="/#aboutme">about me</AnchorLink>
                 </div>
             </div>
             

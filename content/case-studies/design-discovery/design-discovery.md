@@ -16,14 +16,14 @@ description: >
 
 The first phase of work involved amassing research within the space of civic machine learning through a variety of methods. 
 
-![](./research.png#grid-column=left / right)
+![Process diagram with the research and sensemaking section highlighted](./research.png '#grid-column=left / right')
 
 
 #### Secondary Research
 
 Secondary research was an extremely important part of this early design work, serving as the starting point for much of the prototyping. My research engaged with the substantial amount of existing design projects on machine learning, as well as the critical scholarship happening in Science & Technology Studies, Anthropology, and New Media Studies. 
 
-![](./secondary-research.png#grid-column=wide-left / wide-right)
+![Quotes printed on reciepts, with sections highlighted in yellow](./secondary-research.png '#grid-column=wide-left / wide-right')
 
 Take a look at the curated are.na boards to get an overview of this research:
 
@@ -34,17 +34,17 @@ Take a look at the curated are.na boards to get an overview of this research:
 
 Prototyping and making in this stage of work took the form of cardboard models (sometimes with simple electronics), quick web apps, or even just diagrams. These prototypes were often responding to other threads of research, delving into the materiality of the concepts I was encountering. 
 
-![](./early_prototypes_01.png#grid-column=wide-left / center)
+![Cardboard box with reciepts coming out of one end (left) Code displayed in a Jupyter Notebook (right)](./early_prototypes_01.png '#grid-column=wide-left / center')
 
-![](./early_prototypes_02.png#grid-column=center / wide-right)
+![Cardboard metal detector type device (left) Interface labeled Become a Hotdog (right)](./early_prototypes_02.png '#grid-column=center / wide-right')
 
-![](./early_prototypes_03.png#grid-column=wide-left / center)
+![Someone being scanned (left) Box with a computer mounted inside, filled with reciepts (right)](./early_prototypes_03.png '#grid-column=wide-left / center')
 
-![](./early_prototypes_04.png#grid-column=center / wide-right)
+![Handheld cardboard device covered in buttons (left) Someone looking through a google cardboard device (right)](./early_prototypes_04.png '#grid-column=center / wide-right')
 
 Some of the initial ideas that were conceived in this early stage of prototyping would consistently reappear in later stages of the design discovery process:
 
-![](./early_prototypes_05.png#grid-column=left / right)
+![Cardboard device covered in numbered buttons and a screen (left) Interface listing categories mapped to numbers](./early_prototypes_05.png '#grid-column=left / right')
 
 The prototype above was where I first explored ideas of data collection devices that allows user to create their own set of categories, a concept that reappears throughout the rest of the design process.
 
@@ -53,7 +53,7 @@ The prototype above was where I first explored ideas of data collection devices 
 
 In addition to working in the design studio, I also spent time working to understand how machine learning was being operationalized in my local community, specifically with data-driven policing. There is an active community of abolitionist organizers in Los Angeles, focused on dismantling data-driven poicing, whose work I participated in and learned from. 
 
-![](./primary_research.png#grid-column=wide-left / wide-right)
+![Zines being held in the air (left and middle) Diagram labeled Algorithmic Ecology (right)](./primary_research.png '#grid-column=wide-left / wide-right')
 
 Much of this work took the form of collaboratively created popular education material. For more on the materials you see above, see the [Algorithmic Ecology](https://stoplapdspying.medium.com/the-algorithmic-ecology-an-abolitionist-tool-for-organizing-against-algorithms-14fcbd0e64d0), and [PredPol Is...](https://freerads.org/2019/10/11/a-guide-to-predpol-and-dismantling-it/)
 
@@ -67,24 +67,24 @@ The learnings from this work greatly informed my design work, forming the founda
 
 Creating conceptual diagrams are an incredibly useful way for me to start synthesizing some of the research and prototyping. Creating these visual metaphors and flows helped to focus my view into particular aspects of the machine learning process.
 
-![](./drawing_01.jpg#grid-column=left / center)
+![Diagram that looks like an engineering drawing, labeled predpol model evaluation](./drawing_01.jpg '#grid-column=left / center')
 
-![](./drawing_02.jpg#grid-column=center / right)
+![Diagram that looks like an engineering drawing, labeled deep learning training process](./drawing_02.jpg '#grid-column=center / right')
 
-![](./drawing_03.jpg#grid-column=left / center)
+![Diagram that shows particles being sifted through two frames](./drawing_03.jpg '#grid-column=left / center')
 
-![](./drawing_04.jpg#grid-column=center / right)
+![Diagram illustrating a pyramid with blocks, labeled neural network architecture](./drawing_04.jpg '#grid-column=center / right')
 
-![](./drawing_05.jpg#grid-column=left / center)
+![Diagram that looks like an engineering drawing, labeled machine learning terminology](./drawing_05.jpg '#grid-column=left / center')
 
-![](./drawing_06.jpg#grid-column=center / right)
+![Mickey mouse as the sorcerer's apprentice, in front of a background annotated with if-else loops](./drawing_06.jpg '#grid-column=center / right')
 
 These diagrams were not primarily designed as communication tools. Instead, they served as a form of prototyping with ideas. 
 
 
 ### Developing Scenarios
 
-![](./synthesis.png#grid-column=left / right)
+![Process diagram with the section labeled Synthesis highlighted](./synthesis.png '#grid-column=left / right')
 
 The next phase of work was to do some synthesis of the broad range of research by creating specific scenarios that would put some of those initial explorations into particular contexts as a way to dig deeper into the subject matter. 
 
@@ -94,13 +94,13 @@ The scenarios I developed responded to the prompt:
 
 ## What would data collection devices that collected data on fear look like? And how might you intervene in such data collection systems?
 
-![](./scenarios_01.jpg#grid-column=wide-left / center)
+![Collage of sketches and images of data collection devices](./scenarios_01.jpg '#grid-column=wide-left / center')
 
-![](./scenarios_02.jpg#grid-column=center / wide-right)
+![Collage of sketches and images of surveillance devices](./scenarios_02.jpg '#grid-column=center / wide-right')
 
 To address this brief, the research effort became more focused on mechanisms for collecting data. In this case, the research involved prototypes as well as secondary research on the material qualities of various data collection devices. 
 
-![](./cardboard.png#grid-column=left / right)
+![Collage of different cardboard and electronic prototypes of data collection devices](./cardboard.png '#grid-column=left / right')
 
 The development of the scenarios emerged through the prototypes I created. As the prototypes gained fidelity, I also began "prototyping" stories of the near-futures where these devices would exist, filling in details of the entire system of data collection. 
 
@@ -111,9 +111,9 @@ To see a more detailed look at these scenarios, take a look at the [Machined Dat
 
 The first scenario imagined a municipal "Data Surveyors" program, where residents participated in a "fear mapping" of their neighborhoods, which would impact where resources were deployed.
 
-![](./scenarios_03.png#grid-column=left / center)
+![Closeup annotated view of a orange, triangular electronic device covered in LEDs](./scenarios_03.png '#grid-column=left / center')
 
-![](./scenarios_04.png#grid-column=center / right)
+![Person wearing a high visability vest with an orange triangular shaped device attached to the middle](./scenarios_04.png '#grid-column=center / right')
 
 It posed questions about the subjective nature of data representing "fear" as well as questions about whose data would be collected in a program like this. 
 
@@ -121,9 +121,9 @@ It posed questions about the subjective nature of data representing "fear" as we
 
 The second scenario was focused on corporate data collection, imagining a system where a big tech company allowed users of home security technology to train their own algorithms to automate their cameras. 
 
-![](./scenarios_05.png#grid-column=left / center)
+![Homemade labels placed haphazardly ontop of a binoculars device](./scenarios_05.png '#grid-column=left / center')
 
-![](./scenarios_06.jpg#grid-column=center / right)
+![Someone looking through a binoculars device](./scenarios_06.jpg '#grid-column=center / right')
 
 This scenario imagines people intervening in such a consumer system by "re-labeling" the default categories provided. 
 
@@ -136,7 +136,7 @@ While these scenarios largely just communicate a critique of machine learning sy
 
 ### Moving from Research to Concept
 
-![](./concept.png#grid-column=left / right)
+![Process diagram with the section labeled Concept highlighted](./concept.png '#grid-column=left / right')
 
 Up until this part of the process, the design work was largely about exploring and critiquing existing machine learning systems. The next step was to pull together all the insights from those explorations into new concepts for machine learning. 
 
@@ -144,12 +144,12 @@ Up until this part of the process, the design work was largely about exploring a
 
 Building from the insights I found while developing scenarios, I realized that feeding an algorithm fictional data could be used to generate aspirational worlds. I sketched out an initial prototype for users to create imaginary data ontop of google street view:
 
-![](./proposal.jpg#grid-column=left / right)
+![A prototype website showing a draggable box ontop of a google street view image](./proposal.jpg '#grid-column=left / right')
 
 
 The design brief then became **how do you prompt users of this tool for imaginary data?** How do you spark their imagination? I developed the following variations to try to answer that question.
 
-![](./variations.png#grid-column=wide-left / wide-right)
+![Grid of different UIs, with one highlighted captioned Relabeling](./variations.png '#grid-column=wide-left / wide-right')
 
 #### First Prototype
 
@@ -157,11 +157,11 @@ The most promising and intriguing approach was using the idea of relabeling, a t
 
 The first prototypes of this data labeling application design around relabeling are shown below. For a user to label data, they had to create their own categories instead of using ones that were pre-defined for them. 
 
-![](./first-prototype-01.png#grid-column=wide-left / center)
+![An annotation box ontop of an image](./first-prototype-01.png '#grid-column=wide-left / center')
 
-![](./first-prototype-02.png#grid-column=center / wide-right)
+![Screenshot of an app that annotates google street view with labels](./first-prototype-02.png '#grid-column=center / wide-right')
 
-![](./first-prototype-03.png#grid-column=wide-left / wide-right)
+![A long display table with an iPad sitting at the front (left) Dialog box asking user to contribute to a machine learning algorithm (right)](./first-prototype-03.png '#grid-column=wide-left / wide-right')
 
 This prototype was used as a part of a physical installation that illustrated the re-labeling concept at the ArtCenter Media Design Practices Thesis Show. 
 
@@ -173,7 +173,7 @@ The big insight from testing was that the "descriptions" written by the contribu
 
 ## The key insight was that the written descriptions are the real "data" being collected, not the labeled images. 
 
-![](./interactive-prototyping-01.jpg#grid-column=left / right)
+![Top down view of two people using an ipad at a display table in a gallery](./interactive-prototyping-01.jpg '#grid-column=left / right')
 
 
 #### Detailed Design
@@ -182,7 +182,7 @@ Following the gallery show, and testing of the prototype, I began to develop the
 
 ## How would you represent the concept and ideas in the visual aesthetics of the app?
 
-![](./detailed_design.png#grid-column=wide-left / wide-right)
+![Sketches of different UI elements](./detailed_design.png '#grid-column=wide-left / wide-right')
 
 Some of the design explorations I went through can be seen in the sketches as well as Figma mockups illustrating some of the flows I explored.
 
@@ -193,20 +193,20 @@ Some of the design explorations I went through can be seen in the sketches as we
 
 The final prototype was developed into a [working prototype](https://unstable-label.glitch.me/) with an associated [user manual](https://unstable-manual.adit.design), which explains to users how the system works. Some of the key changes and additions made to the design are outlined below.
 
-![](./final_prototype_01.jpg#grid-column=left / right)
+![Interface design for a data labeling application, with multiple overlapping modal windows](./final_prototype_01.jpg '#grid-column=left / right')
 
 - Using lots of overlapping UI elements to represent the real messiness in developing categories for a machine learning algorithm.
 
-![](./final_prototype_03.png#grid-column=wide-left / center)
+![A UI dropdown with the option Google Street View highlighted](./final_prototype_03.png '#grid-column=wide-left / center')
 
-![](./final_prototype_05.png#grid-column=center / wide-right)
+![Screenshot of a busy web application where someone is relabeling the word construction site](./final_prototype_05.png '#grid-column=center / wide-right')
 
 - **(Left)** Pointing towards a future iteration of the app, where users could bring their own data instead of just using google street view
 - **(Right)** Using user-drawn bounding boxes to show visualize existing labels
 
-![](./final_prototype_02.png#grid-column=wide-left / center)
+![Web app showing an image from google street view, covered in handrawn shapes](./final_prototype_02.png '#grid-column=wide-left / center')
 
-![](./final_prototype_04.png#grid-column=center / wide-right)
+![Web app showing a network diagram over the top of the entire interface](./final_prototype_04.png '#grid-column=center / wide-right')
 
 - **(Left)** Allowing users to draw bounding boxes freehand instead of resizeable rectangles.
 - **(Right)** Representing the “model” as a network diagram showing the branching nature of the categories used

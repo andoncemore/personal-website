@@ -68,8 +68,8 @@
     transform: scale(1.1) rotate(3deg);
 }
 
-.sketch:hover .sketch-thumbnail{
-    filter: url(#myfilter);
+.sketch .sketch-thumbnail{
+    filter: url(#myfilter2);
 }
 
 
@@ -278,4 +278,15 @@
 
 .draggable.dragging .sticky{
     transform: scale(0.9) rotate(3deg);
+}
+
+/* Message */
+
+.message{
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    font-size: 14px;
+    font-family: 'DM Sans';
+    color: var(--minor-content);
 }

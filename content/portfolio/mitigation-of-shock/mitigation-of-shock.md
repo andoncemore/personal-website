@@ -15,26 +15,26 @@ description: >
 ### Material Exploration
 One area of research was in the materials, tools, and aesthetics of DIY growing systems. These experiments were guided by what we thought might be available in the 2050 we imagined.
 
-![](./Climate-02.png#grid-column=wide-left / center)
+![Tools scattered on a table](./Climate-02.png '#grid-column=wide-left / center')
 
-![](./Climate-03.png#grid-column=center / wide-right)
+![Wooden frame laying sideways on the ground](./Climate-03.png '#grid-column=center / wide-right')
 
-![](./Climate-01.png#grid-column=wide-left / wide-right)
+![Arduino electronic in a plastic box, labeled risk of death](./Climate-01.png '#grid-column=wide-left / wide-right')
 
 
 
 ### Mapping Secondary Research
 Mapping extensive secondary research onto a breadcrumb timeline, helping to draw extrapolations to 2050. Research was split into major categories including food infrastructure, food insecurity, water, energy, and housing. 
 
-![](./Climate-04.png#grid-column=wide-left / wide-right)
+![Research and projections mapped onto a timeline](./Climate-04.png '#grid-column=wide-left / wide-right')
 
 ### Growing Experiments
 Prototyping with different ways to grow food indoors as a way to identfy the building blocks of home growing systems, and how to build the minimal viable growing system. 
 
-![](./Climate-08.jpg#grid-column=wide-left / center)
+![Homemade hydroponics setup](./Climate-08.jpg '#grid-column=wide-left / center')
 
-![](./Climate-06.png#grid-column=center / wide-right)
+![Plants growing in a soda bottle](./Climate-06.png '#grid-column=center / wide-right')
 
-![](./Climate-07.png#grid-column=wide-left / center)
+![Bags of materials used to grow plants with hydroponics](./Climate-07.png '#grid-column=wide-left / center')
 
-![](./Climate-05.png#grid-column=center / wide-right)
+![Six tomato plants growing out of a plastic tub.](./Climate-05.png '#grid-column=center / wide-right')

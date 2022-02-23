@@ -1,10 +1,11 @@
-import React, {useState, useEffect} from "react"
+import React, {useState, useEffect, useCallback} from "react"
 import { useStaticQuery, graphql } from 'gatsby'
 import Navbar from '../components/navbar'
 import Pannable from "../components/pannable"
 import Draggable from "../components/draggable"
 import Sketch from "../components/sketch"
 import Sticky from "../components/sticky"
+import {getImage} from "gatsby-plugin-image"
 import "@fontsource/ibm-plex-serif/400.css"
 import "@fontsource/ibm-plex-serif/600.css"
 import "@fontsource/ibm-plex-serif/400-italic.css"
@@ -131,9 +132,7 @@ export default function Sketchbook({location}) {
                 node {
                 name
                 childImageSharp {
-                    fluid(maxWidth: 350, grayscale: true) {
-                        ...GatsbyImageSharpFluid_tracedSVG
-                    }
+                    gatsbyImageData(layout: CONSTRAINED, width: 350, placeholder:TRACED_SVG, transformOptions: {grayscale: true})
                 }
                 }
             }
@@ -144,7 +143,8 @@ export default function Sketchbook({location}) {
     const getThumbnail = (key) => {
         let value = data.allFile.edges.find((edge) => edge.node.name === key);
         if(value){
-            return value.node.childImageSharp.fluid
+            return value.node;
+            // return value.node.childImageSharp.fluid
         }
         else{
             return undefined;
@@ -214,6 +214,9 @@ export default function Sketchbook({location}) {
                     </svg>
                 </div>
             </div>
+            <div className="message">
+                <p>*The functionality and content here is a work in progress.</p>
+            </div>
             <div className="fullpage">
                 <Pannable constraints={getConstraints()} zoom={(zoom ? 0.55 : 1)}>
                     {(zoom) => {
@@ -221,7 +224,7 @@ export default function Sketchbook({location}) {
                     }}
                 </Pannable>
                 <svg width="900" height="600" viewBox="0 0 900 600" style={{position: 'absolute', height: 0}}>
-                    <filter id="myfilter">
+                    <filter id="myfilter2">
                         <feColorMatrix type="matrix" values=".33 .33 .33 0 0
                         .33 .33 .33 0 0
                         .33 .33 .33 0 0
@@ -233,7 +236,7 @@ export default function Sketchbook({location}) {
                             <feFuncB type="table" tableValues=".90980392  1"></feFuncB>
                         </feComponentTransfer>
                     </filter>
-                </svg>
+        </svg>
             </div>
         </React.Fragment>
     )

@@ -97,6 +97,7 @@ footer.navbar{
 .active{
     /* font-weight:bold !important; */
     background: var(--highlight-color);
+    color: var(--main-content) !important;
 }
 
 /* -------------- */

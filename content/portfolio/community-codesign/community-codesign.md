@@ -18,22 +18,22 @@ description: >
 ---
 
 ### Relationship Building
-The first phase of work was to build relationships within the community, getting a handle on the community politics the project would have to navigate. 
+The first phase of work was to build relationships within the community, getting a handle on the community politics the project would have to navigate.
 
-![](./Community-Development-04.png#grid-column=left / right)
+![Group of people standing in the middle of a basketball court, having a discussion](./Community-Development-04.png '#grid-column=left / right')
 
 ### Synthesis
-Incorporating makerspace research from Boston with field research from Clarkdale to identify potential curriculum.   
+Incorporating makerspace research from Boston with field research from Clarkdale to identify potential curriculum.
 
-![](./Community-Development-03.png#grid-column=left / right)
+![Two charts mapping sticky notes onto different 2 by 2 matricies](./Community-Development-03.png '#grid-column=left / right')
 
 ### Running Codesign Workshops 
 Running a cardsorting activity with the Clarksdale community to serve as a launching point for further administrative discussions of who in the community might run the space, and what curriculum it might teach.
 
-![](./Community-Development-01.png#grid-column=wide-left / wide-right)
+![Combination of laminated cards and sticky notes organized on a table](./Community-Development-01.png '#grid-column=wide-left / wide-right')
 
-![](./Community-Development-02.png#grid-column=left / right)
+![Four people seated around a table in a classroom having a discussion](./Community-Development-02.png '#grid-column=left / right')
 
-![](./Community-Development-05.png#grid-column=wide-left / center)
+![Combination of laminated cards and sticky notes organized on a table](./Community-Development-05.png '#grid-column=wide-left / center')
 
-![](./Community-Development-06.png#grid-column=center / wide-right)
+![Combination of laminated cards and sticky notes organized on a table](./Community-Development-06.png '#grid-column=center / wide-right')

@@ -29,11 +29,11 @@ info:
 
 The initial concept uses google street view as a data souce, letting users create imaginary data.
 
-![](./proposal.jpg#grid-column=left / right)
+![A prototype website showing a draggable box ontop of a google street view image](./proposal.jpg '#grid-column=left / right')
 
 The initial prototype highlighted the main challenge: providing users prompts to help them create label imaginary data. The following variations explored different ways to help users label and create this fictional data. 
 
-![](./variations.png#grid-column=wide-left / wide-right)
+![Grid of different UIs, with one highlighted captioned Relabeling](./variations.png '#grid-column=wide-left / wide-right')
 
 Through presentations, critiques and discussions, the most promising idea was some sort of relabeling systems, where users **relabel** existing labels as a way to create new categories
 
@@ -41,17 +41,17 @@ Through presentations, critiques and discussions, the most promising idea was so
 
 To develop the concept further, I designed and built a functional web-app to run on an iPad. Through the process of designing and building this app, there were four key components that emerged.
 
-![](./included_components.png#grid-column=left / right)
+![Simple drawings illustrating features of an application](./included_components.png '#grid-column=left / right')
 
-![](./first-prototype-01.png#grid-column=wide-left / wide-right)
+![Screenshot of an app that annotates google street view with labels](./first-prototype-01.png '#grid-column=wide-left / wide-right')
 
 One of the key features that was added to this prototype was a way to see a branching tree that showed the relationships between the different categories that were being created. 
 
-![](./first-prototype-04.png#grid-column=left / right)
+![An annotation box ontop of an image (left) and an expandable tree of words (right)](./first-prototype-04.png '#grid-column=left / right')'
 
-![](./first-prototype-02.jpg#grid-column=left / center)
+![Buttons on the top of an interface labeled Edit and Nav](./first-prototype-02.jpg '#grid-column=left / center')
 
-![](./first-prototype-03.jpg#grid-column=center / right)
+![Table of listing locations in the bottom of an interface](./first-prototype-03.jpg '#grid-column=center / right')
 
 This version of the app was used in a gallery show, in combination with a "workshop" style deconstruction of the relabeling features of the app. The gallery show and presentation provided opportunities for feedback:
 
@@ -59,24 +59,24 @@ This version of the app was used in a gallery show, in combination with a "works
 - Finding which parts of the process were the most difficult to complete
 - Identifying opportunities for new features
 
-![](./gallery-01.jpg#grid-column=wide-left / wide-right)
+![A long display table with an iPad sitting at the front](./gallery-01.jpg '#grid-column=wide-left / wide-right')
 
-![](./gallery-02.jpg#grid-column=wide-left / center)
+![A hand moving paper frames ontop of a printed image of a street](./gallery-02.jpg '#grid-column=wide-left / center')
 
-![](./gallery-03.jpg#grid-column=center / wide-right)
+![Top down view of two people using an ipad at a display table in a gallery](./gallery-03.jpg '#grid-column=center / wide-right')
 
 ### Refining the UI Design
 
 The next round of iterations focused more on the UI design, figuring out how the visual aesthetics of the app could better represent the core concepts.
 
-![](./detailed_design.png#grid-column=left / right)
+![Sketches of different UI elements](./detailed_design.png '#grid-column=left / right')
 
 Some key additions were:
 - Letting users draw-free form shapes to create bounding boxes
 - Representing the model as a network diagram rather than a hierarchitcal tree
 - Introducing a UI with lots of overlapping elements, as a way to visually represent the layered complexity that is often hidden in "simple" labeling tasks.
 
-![](./thumbnail.png#grid-column=wide-left / wide-right)
+![Screenshot of someone sharing their screen in zoom, with a data labeling app on their screen](./thumbnail.png '#grid-column=wide-left / wide-right')
 
 ### Final Design
 
@@ -88,20 +88,20 @@ The left panel of the system allows you to navigate through google street view, 
 
 The right panel represents the model, listing all the "data" that has been contributed to the project, featuring not only labels, but also the stories that put them into context. 
 
-![](./Unstable-Label-05.png#grid-column=wide-left / wide-right)
+![Annotated image of a data labeling interface](./Unstable-Label-05.png '#grid-column=wide-left / wide-right')
 
 #### Step 1: Local Navigation
 
 Each user contributes from their own local context from within Google Street View or from a physical data collection device. 
 
-![](./Unstable-Label-07.png#grid-column=left / right)
+![A UI dropdown with the option Google Street View highlighted](./Unstable-Label-07.png '#grid-column=left / right')
 
 #### Step 2: Creating Categories
 
 - The current machine learning model evaluates the image from your current location, generating labels. 
 - You create new categories by relabeling those existing categories. The relabeling process is usually done in a small group. You discuss what the original category makes you think of within your local context. 
 
-![](./final-prototype-01.png#grid-column=left / right)
+![Screenshot of a busy web application where someone is relabeling the word crazy traffic](./final-prototype-01.png '#grid-column=left / right')
 
 ## This is not about "correcting" the algorithm or making it more "accurate." It's about introducing your locally situated perspective into the dataset
 
@@ -109,12 +109,12 @@ Each user contributes from their own local context from within Google Street Vie
 
 Use your personal categories that you’ve just created to annotate other images, creating data. There are two annotation options: label and imagine. You can choose to annotate the image as it currently exists, or as you **wish** it existed. 
 
-![](./final-prototype-02.png#grid-column=left / right)
+![Web app showing an image from google street view, covered in handrawn shapes](./final-prototype-02.png '#grid-column=left / right')
 
 #### Step 4: Updating the ML Model
 
 Once submitted, the model is retrained using your data, adding your categories into the model. Future contributors may relabel your data, recontexualizing it to their local neighborhoods.
 
-![](./exploring_model_screen.png#grid-column=left / right)
+![Web app showing a network diagram over the top of the entire interface](./exploring_model_screen.png '#grid-column=left / right')
 
 ## The end result of this system isn’t a “better” model, but the process of contestation and negotiation that it facilitates, some of which doesn’t happen in the app at all.

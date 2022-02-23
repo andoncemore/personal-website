@@ -1,13 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
-import ActivityStyle from '../styles/activities.module.css'
+import {activities, table} from '../styles/activities.module.css'
 
 
 export default function Activities(){
     return(
         <React.Fragment>
-            <div className={ActivityStyle.activities}>
-                <div className={ActivityStyle.table}>
+            <div className={activities}>
+                <div className={table}>
                     <div>Experience</div>
                     <div>
                         <ul><li>NASA JPL</li><li>Intern, Human Centered Designer II</li></ul>
@@ -26,7 +26,7 @@ export default function Activities(){
                         <p>Summer 2015</p>
                     </div>
                 </div>
-                <div className={ActivityStyle.table}>
+                <div className={table}>
                     <div>Education</div>
                     <div>
                         <ul><li>MFA Media Design Practices</li><li>ArtCenter College of Design</li></ul>
@@ -37,7 +37,7 @@ export default function Activities(){
                         <p>2012-2016</p>
                     </div>
                 </div>
-                <div className={ActivityStyle.table}>
+                <div className={table}>
                     <div>Exhibited Work</div>
                     <div>
                         <ul><li><a href="https://art.metro.net/event/broken-news/">Union Station, Los Angeles</a></li><li><Link to="portfolio/broken-news">Broken News</Link></li></ul>

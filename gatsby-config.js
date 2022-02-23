@@ -15,6 +15,7 @@ module.exports = {
     author: `Adit Dhanushkodi`
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
@@ -63,7 +64,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1080,
-              linkImagesToOriginal: false,
+              linkImagesToOriginal: true,
               showCaptions: ['title'],
               markdownCaptions: false
             },

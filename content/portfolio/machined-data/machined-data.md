@@ -24,21 +24,21 @@ info:
 
 The work started by looking at the form and function of existing data collection devices, with an additional focus on surveillance technologies. While doing this research, I was also sketching out concepts for speculative devices. 
 
-![](./scenarios_01.jpg#grid-column=wide-left / wide-right)
+![Collage of sketches and images of data collection devices](./scenarios_01.jpg '#grid-column=wide-left / wide-right')
 
-![](./scenarios_02.jpg#grid-column=wide-left / wide-right)
+![Collage of sketches and images of surveillance devices](./scenarios_02.jpg '#grid-column=wide-left / wide-right')
 
 ### Prototyping
 
-![](./process_02.png#grid-column=left / right)
+![Collage of different cardboard and electronic prototypes of data collection devices](./process_02.png '#grid-column=left / right')
 
 Using cardboard and simple electronics, I began to prototype the shape and feel of different data collection devices. Using these early prototypes, I began to develop rough stories of the context in which these devices might be used, which in turn, influenced the design of the devices. 
 
-![](./process_01.jpg#grid-column=wide-left / center)
+![A laser cutter cutting out pieces of MDF](./process_01.jpg '#grid-column=wide-left / center')
 
-![](./cardboard.jpg#grid-column=center / wide-right)
+![A shelf of cardboard prototypes of different data collection devices](./cardboard.jpg '#grid-column=center / wide-right')
 
-![](./cad.png#grid-column=wide-left / wide-right)
+![Wireframe CAD models of three data collection devices](./cad.png '#grid-column=wide-left / wide-right')
 
 ### Developing the Story
 
@@ -50,24 +50,24 @@ The two final scenarios each looked at data collection and safety from two diffe
 
 The first speculative scenario is an extrapolation of current consumer surveillance tools like the Ring doorbell. This scenario imagines a major tech company creating a machine learning product that allows users to collect images to train personalized image classification algorithms to their neighborhood. 
 
-![](./Machined-Data-04.png#grid-column=left / right)
+![A data collection device in the shape of binoculars with a camera and buttons along the top](./Machined-Data-04.png '#grid-column=left / right')
 
 The system would pull data from neighborhood social media apps like NextDoor to create labels that end up being codewords for xenophobia and racism like “suspicious activity” and “loitering.”
 
-![](./Machined-Data-01.png#grid-column=wide-left / wide-right)
+![Someone looking through a binoculars device](./Machined-Data-01.png '#grid-column=wide-left / wide-right')
 
 ## What would happen if the categories were relabeled to reflect structural and systemic causes rather than the symptoms of those issues? Could the infrastructure be **reappropriated** to identify McMansions or other symbols of inequity, rather than automate oppression and prejudice?
 
-![](./Machined-Data-05.png#grid-column=left / right)
+![Homemade labels placed haphazardly ontop of the binoculars device](./Machined-Data-05.png '#grid-column=left / right')
 
 #### Scenario 2: Municipal Data Collection
 
 The second scenario imagines a local, smart city initiative where residents become data surveyors to creat a dataset mapping residents’ sense of fear, safety, and security within the city in an effort to determine where city funds should be spent. 
 
-![](./Machined-Data-02.png#grid-column=wide-left / wide-right)
+![Person wearing a high visability vest with an orange triangular shaped device attached to the middle](./Machined-Data-02.png '#grid-column=wide-left / wide-right')
 
 This scenario is meant to facilitate conversations around how smart city tech initatives typically sample only the most well-off, property owning residents. It also asks why the main solution we see proposed to solve this “sampling bias” is to put already vulnerable people of color under further surveillance. 
 
-![](./Machined-Data-03.png#grid-column=left / right)
+![Closeup annotated view of a orange, triangular device covered in LEDs](./Machined-Data-03.png '#grid-column=left / right')
 
 

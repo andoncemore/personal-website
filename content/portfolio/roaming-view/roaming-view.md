@@ -20,25 +20,25 @@ info:
 ### Field Research
 This project emerged from field research and immersion in Mexico City, responding to the broad design brief to explore the role of technology in Mexico City at different scales and the embedded value systems they create and support. 
 
-![](./Roaming-View-03.png#grid-column=left / center)
+![Person wearing a backpack on the street with a camera mounted to the shoulder strap](./Roaming-View-03.png '#grid-column=left / center')
 
-![](./Roaming-View-05.png#grid-column=center / right)
+![Many decorative cakes on display](./Roaming-View-05.png '#grid-column=center / right')
 
 ### Making as Thinking
 Iteratively prototyping in Mexico City on a device that could help me explore the different technologies of navigation. This prototyping was in response to the observation that technologies like satellite view maps and google steet view can’t capture the ever changing nature of Mexico City. 
 
-![](./Roaming-View-08.png#grid-column=wide-left / center)
+![A circuit board and electronic tools ontop of a table](./Roaming-View-08.png '#grid-column=wide-left / center')
 
-![](./Roaming-View-07.png#grid-column=center / wide-right)
+![A raspberry pi and camera strapped around a person's ankle](./Roaming-View-07.png '#grid-column=center / wide-right')
 
-![](./Roaming-View-06.png#grid-column=wide-left / wide-right)
+![A cobbler sewing onto a leather boot](./Roaming-View-06.png' #grid-column=wide-left / wide-right')
 
 ### Outcomes
 I created two versions of the Roaming View device, which takes pictures from an ankle view with each step you take. These journeys were represented visually through time lapse videos, as well as faux google maps directions.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tbez9QzNnMM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="grid-column: wide-left / center"></iframe>
 
-![](./Roaming-View-04.png#grid-column=center / wide-right)
+![A shoe displayed in front of posters stuck to the wall.](./Roaming-View-04.png '#grid-column=center / wide-right')
 
-![](./Roaming-View-02.png#grid-column=wide-left / wide-right)
+![Mock-Google Street View instructions](./Roaming-View-02.png '#grid-column=wide-left / wide-right')
 

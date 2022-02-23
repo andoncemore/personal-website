@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
-import LandingStyles from '../styles/homestyles.module.css'
-import Img from "gatsby-image"
+import {portfolioContainer, projectGrid, featuredProject, image, sizing, description, caseStudy, small, smallProject} from '../styles/homestyles.module.css'
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
 const ContentGrid = () => {
@@ -31,9 +31,7 @@ const ContentGrid = () => {
               title
               thumbnail {
                 childImageSharp {
-                  fluid(maxWidth: 350, grayscale: true) {
-                    ...GatsbyImageSharpFluid_tracedSVG
-                  }
+                  gatsbyImageData(layout: CONSTRAINED, width: 350, placeholder:TRACED_SVG, transformOptions: {grayscale: true})
                 }
               }
             }
@@ -52,9 +50,7 @@ const ContentGrid = () => {
               date(formatString: "YYYY")
               thumbnail {
                 childImageSharp {
-                  fluid(maxWidth: 650, grayscale: true) {
-                    ...GatsbyImageSharpFluid_tracedSVG
-                  }
+                  gatsbyImageData(layout: CONSTRAINED, width: 650, placeholder:TRACED_SVG, transformOptions: {grayscale: true})
                 }
               }
             }
@@ -64,17 +60,17 @@ const ContentGrid = () => {
     }
   `)
   return(
-      <div className={LandingStyles.portfolioContainer} id="projects">
+      <div className={portfolioContainer} id="projects">
         {/* <h1><span className={LandingStyles.underline}>Projects</span></h1> */}
-        <div className={LandingStyles.projectGrid}>
+        <div className={projectGrid}>
           {data.featured.edges.map((edge, index) => 
-              <Link key={index} className={LandingStyles.featuredProject} to={edge.node.fields.slug}>
-                  <div className={LandingStyles.image}>
-                    <div className={LandingStyles.sizing}>
-                      <div><Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height:"100%"}} imgStyle={{objectFit: "contain"}} /></div>
+              <Link key={index} className={featuredProject} to={edge.node.fields.slug}>
+                  <div className={image}>
+                    <div className={sizing}>
+                      <div><GatsbyImage image={getImage(edge.node.frontmatter.thumbnail)} style={{height: "100%"}} objectFit="contain"/></div>
                     </div>
                   </div>
-                  <div className={LandingStyles.description}>
+                  <div className={description}>
                       <h1>{edge.node.frontmatter.title}</h1>
                       <ul><li>{edge.node.frontmatter.date}</li></ul>
                       <p>{edge.node.frontmatter.shortDescription}</p>
@@ -82,20 +78,20 @@ const ContentGrid = () => {
               </Link>
           )}
           {data.caseStudies.edges.map((edge, index) => 
-              <Link key={index} className={LandingStyles.caseStudy} to={edge.node.fields.slug}>
-                  <div className={LandingStyles.description}>
+              <Link key={index} className={caseStudy} to={edge.node.fields.slug}>
+                  <div className={description}>
                     <h1>{edge.node.frontmatter.title}</h1>
                     <p>{edge.node.frontmatter.shortDescription}</p>
                   </div>
               </Link>
           )}
         </div>
-        <div className={`${LandingStyles.projectGrid} ${LandingStyles.small}`}>
+        <div className={`${projectGrid} ${small}`}>
           {data.notFeatured.edges.map((edge, index) => 
-              <Link key={index} className={LandingStyles.smallProject} to={edge.node.fields.slug}>
-                  <div className={LandingStyles.image}>
-                      <div className={LandingStyles.sizing}>
-                        <div><Img fluid={edge.node.frontmatter.thumbnail.childImageSharp.fluid} style={{height: "100%"}} imgStyle={{objectFit: "contain"}} /></div>
+              <Link key={index} className={smallProject} to={edge.node.fields.slug}>
+                  <div className={image}>
+                      <div className={sizing}>
+                        <div><GatsbyImage image={getImage(edge.node.frontmatter.thumbnail)} style={{height: "100%"}} objectFit="contain" /></div>
                       </div>
                   </div>
                   <h1>{edge.node.frontmatter.title}</h1>
