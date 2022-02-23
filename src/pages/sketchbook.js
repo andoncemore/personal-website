@@ -40,7 +40,7 @@ export default function Sketchbook({location}) {
     const spreadsheetID = "10M2ECbg4MBqcMOa-bRA-ZDgHVHlcXjScfvtBFL_kSN0"
 
     useEffect(() => {
-        fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetID}/values/Sheet1!A2:D?key=${process.env.GATSBY_SHEETS_KEY}`)
+        fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetID}/values/Sheet1!A2:D?key=AIzaSyCnC-tVQgJgiC5kdsyHjGfw5lCsx6TbRRs`)
             .then((res) => res.json())
             .then((data) => {
                 setPos(data.values.map((raw) => ({
@@ -52,7 +52,7 @@ export default function Sketchbook({location}) {
                 ));
             });
 
-        fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetID}/values/Sheet2!A2:D?key=${process.env.GATSBY_SHEETS_KEY}`)
+        fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetID}/values/Sheet2!A2:D?key=AIzaSyCnC-tVQgJgiC5kdsyHjGfw5lCsx6TbRRs`)
             .then((res) => res.json())
             .then((data) => {
                 setStickies(data.values.map((raw) => ({
