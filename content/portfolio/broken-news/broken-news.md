@@ -109,13 +109,13 @@ Bottom two photos are courtesy of LA Metro (Los Angeles County Metropolitan Tran
 
 The final exhibit was shown for the month of October, which marked the 150th anniversary of the Chinese Massacre of 1871. Image on the right is courtesy of LA Metro (Los Angeles County Metropolitan Transportation Authority)
 
-![The title poster for the Broken News exhibit](./final-03.JPG '#grid-column=left / center')
+![The title poster for the Broken News exhibit](./final-03.png '#grid-column=left / center')
 
-![First two newspaper posters from the Broken News Exhibit](./final-04.JPG '#grid-column=center / right')
+![First two newspaper posters from the Broken News Exhibit](./final-04.png '#grid-column=center / right')
 
-![Second two newspaper posters from the Broken News Exhibit](./final-05.JPG '#grid-column=left / center')
+![Second two newspaper posters from the Broken News Exhibit](./final-05.png '#grid-column=left / center')
 
-![Final set of two newspaper posters from the Broken News Exhibit](./final-06.JPG '#grid-column=center / right')
+![Final set of two newspaper posters from the Broken News Exhibit](./final-06.png '#grid-column=center / right')
 
 
 

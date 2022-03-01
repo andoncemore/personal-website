@@ -31,7 +31,7 @@ export default function AboutMe(){
                     <li className={AboutStyles.link}><a href="https://www.dropbox.com/s/dsuwp8ux1ysc9ot/resume2021_general.pdf?dl=0">resume</a></li>
                 </ul> */}
                 <Activities />
-                <h4 className={link}><a href="https://www.dropbox.com/s/dsuwp8ux1ysc9ot/resume2021_general.pdf?dl=0">resume</a></h4>
+                <h4 className={link}><a href="https://www.dropbox.com/s/fc12unyt457gt3w/resume_2022_general.pdf?dl=0" target="_blank" rel="noreferrer">resume</a></h4>
             </div>
             
         </div>
