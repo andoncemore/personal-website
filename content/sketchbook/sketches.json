@@ -1,32 +1,96 @@
 {
     "blackout-poems": {
         "title": "Blackout Poem Generator",
-        "link": "https://empty-statement-blackout.glitch.me",
-        "description": "Here is a description of what I'm thinking about"
+        "link": ["https://empty-statement-blackout.glitch.me","Prototype"],
+        "description": "In response to the George Floyd and Breonna Taylor protests in 2020, design institutions put out empty and meaningless Black Lives Matters statements. I created a Blackout Poem editor to turn those statements into poems that could convey what must materially change within design institutions for Black Lives to truly matter. "
     },
     "manual-learning": {
         "title": "Manual Learning Zine",
-        "link": "/",
-        "description": "Here is a description of what I'm thinking about"
+        "description": "A zine that compares the manual process of data entry to Machine Learning algorithms, elevating the manual form of data entry and analysis to the same level as the highly opaque, automated processes of Machine Learning algorithms. It argues that there is value in the slow, deliberate, manual processes."
     },
     "predpol-is":{
         "title": " Predpol Is Zine",
-        "link": "https://freerads.org/2019/10/11/a-guide-to-predpol-and-dismantling-it/",
-        "description": "Here is a description of what I'm thinking about"
+        "link": ["https://freerads.org/2019/10/11/a-guide-to-predpol-and-dismantling-it/", "Free Radicals Blog Post"],
+        "description": "A zine I helped create with Stop LAPD Spying Coalition and Free Radicals on dismantling the use of PredPol, a predictive policing system, in Los Angeles. It argues that 'PredPol is algorithm that tries to determine where police should be. We say police should be nowhere'"
     },
     "reciept-cardsorting":{
         "title": "Cardsorting with Receipts",
-        "path": "/reciept-cardsorting",
-        "description": "Here is a description"
+        "path": ["/reciept-cardsorting", "Prototype and Concept Writeup"],
+        "description": "An experiment in physical cardsorting of digital design research material. The goal was to get the tangibility of physical artifacts, while the traceability of digital repositories when doing qualitative design research."
     },
     "algorithm-circle":{
         "title": "Algorithm Circle",
-        "path": "/algorithm-circle",
-        "description": "Here is a description of this thing here."
+        "path": ["/algorithm-circle", "Concept Writeup"],
+        "description": "A small speculative design project, taking a neostalgic look at content reccomendation to imagine collective approaches to reccomendation algorithms."
     },
     "printer-chat":{
         "title": "Printer Chat",
-        "link": "https://printer-chat.adit.design",
-        "description": "Here is a description of this thing here."
+        "link": ["https://printer-chat.adit.design", "Prototype"],
+        "description": "An experiment to setup a networked reciept printer which would allow any friends or family to send images and notes directly to my reciept printer. This included the setup and modification of a open source code for a server in the cloud, and a client application on a raspberry pi connected to a reciept printer. Try it out! "
+    },
+    "camera-control":{
+        "title": "Camera Control Workshop",
+        "link": ["https://github.com/andoncemore/camera-control-workshop", "Workshop Documentation"],
+        "description": "A small workshop I ran at the ArtCenter Media Design Practices program, teaching students different approaches to modify and switch between camera feeds based on different sensors."
+    },
+    "computational-logics":{
+        "title": "Computational Logics Zine",
+        "description": "A short zine that brings together a series of high-level critiques of computational logics, arguing that despite the ubiquity of software, we should not take its current politics and values as inherent to the medium."
+    },
+    "fft-weatherman":{
+        "title": "FFT Weatherman",
+        "description": "An quick prototype looking at Speech-to-Text algorithms, where a weatherman presents an Fast-Fourier Transform (FFT) of your speech. A FFT converts an audio signal into its frequency components, which is a critical part of every Speech-to-Text algorithm."
+    },
+    "p5-workshop":{
+        "title": "Intro to p5/ml5.js Workshop",
+        "link": ["https://github.com/mediadesignpractices/mdp-p5-workshop", "Workshop Documentation"],
+        "description": "A workshop I ran at the ArtCenter Media Design Practices Program to introduce new students to the *thinking while making* approach by using p5 and ml5.js. The workshop focused on using speech-to-text algorithms with text ML algorithms from ml5.js"
+    },
+    "alt-ctrl":{
+        "title": "Tabling at Tiny Tech Zines",
+        "description": "Tabled at and sold zines at the Tiny Tech Zines Fair 2019 in Los Angeles , presenting two zines I created, as well as a collection of zines made by my collegues from the Media Design Practices program under the name Alt.Ctrl.",
+        "link": ["https://tinytechzines.org/archive/ttz-2019/","Tiny Tech Zines 2019"]
+    },
+    "ankle-adaptation":{
+        "title": "Cardboard Adaptation",
+        "description": "I fractured my ankle snowboarding, and created a couple of cardboard adaptations for my apartment to better suit my injury. The picture above shows a basic incline plane designed to sit on my coffee table, letting me keep my ankle raised comfortably while I sat on the couch."
+    },
+    "fake-news-history":{
+        "title": "Fake News Archeology",
+        "description": "A speculative design project created over the course of a Very Very Far Away workshop, imagining how invented artifacts may be buried today to influence future narratives about our civilization. This absurd concept came about by thinking about the intersection of governance, fake news, and public memory."
+    },
+    "jumpsuit":{
+        "title": "Sewing a JUMPSUIT",
+        "description": "I took a critical theory and sewing course with the Arts Research Collective and Rational Dress Society, making a JUMPSUIT, a personal uniform for the End of Capitalism. While I didn't successfully complete the project, it started me down a path of learning to sew.",
+        "link": ["https://www.artsresearchcollective.com/enroll", "Course Website"]
+    },
+    "ML-schematics-zine":{
+        "title": "ML Schematics Zine",
+        "description": "A zine in the format of engineering drawings, diagramatically explaining key concepts on how neural networks work, as well as presenting novel ML data collection devices from my Thesis work."
+    },
+    "power-word":{
+        "title": "Power Word Furniture",
+        "description": "A piece of furniture that explores how speech-to-text-algorithms could be an intrinsic dimension of architecture. The furniture piece includes two plates hanging by an electromagnet, which will release the plates when it hears the programmed power word. The piece was tested by having a group conversation around it, seeing how the furniture piece impacted conversations."
+    },
+    "reciept-typewriter":{
+        "title": "Reciept Typewriter",
+        "description": "A quick prototype, turning a reciept printer into a networked typewriter. For a summer, I took notes exclusively on the device, which would immediately print a new line whenever enough characters were typed to fill the line. It prevented me from overthinking the notes, keeping the notetaking process light."
+    },
+    "speech-reciepts":{
+        "title": "Live Speech Reciepts",
+        "description": "In this experiment, we had a conversation around a reciept printer which was capturing and printing everything we were saying on a single long reciept. The goal of this experiment was to see what the impact of visually seeing the process of being overheard."
+    },
+    "tissue-box-cobot":{
+        "title": "Tissue Box Co-Bot",
+        "description": "A little robot, exploring how robots might use non-verbal communication with us to help them achieve their goals. In this design fiction, a robot hidden in a tissue box has a goal to conduct surveillance, but has no way to move. So it non-verbally communicates with humans to move it to a new location. "
+    },
+    "contract-scraper":{
+        "title": "Scraping LAPD Contracts",
+        "description": "While volunteering with the Stop LAPD Spying Coalition, I built a webscraper to go through the public list of LAPD contracts, searching specifically for people and organizations who might be involved in their data driven policing efforts. "
+    },
+    "algorithmic-ecology":{
+        "title": "Algorithmic Ecology Workshop",
+        "description": "I co-facilitated a workshop on the Algorithmic Ecology tool at the Ctrl.Z.AI Zine fair in Barcelona on behalf of the Stop LAPD Spying Coalition. The Algorithmic Ecology was a mapping tool to help organizers understand and target their fights against opressive algorithmic technologies.",
+        "link": ["https://stoplapdspying.medium.com/the-algorithmic-ecology-an-abolitionist-tool-for-organizing-against-algorithms-14fcbd0e64d0", "Stop LAPD Spying Blog Post"]
     }
 }

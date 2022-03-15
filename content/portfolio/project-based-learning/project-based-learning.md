@@ -15,7 +15,7 @@ description: >
 
 The classroom space started as what could be characterized as an engineering school junkyard. The goal was to clean up the space, and to design it to better support the learning and project outcomes of the course.
 
-![Junk materials scattered ontop of a desk and sitting on the floor](./Learning-Spaces-01.png#grid-column=left / right)
+![Junk materials scattered ontop of a desk and sitting on the floor](./Learning-Spaces-01.png '#grid-column=left / right')
 
 ### Design Process
 Connecting needs and attitudes of the space with potential solutions, actions, and properties of the space.
