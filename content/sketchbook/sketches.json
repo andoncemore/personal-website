@@ -82,7 +82,8 @@
     },
     "tissue-box-cobot":{
         "title": "Tissue Box Co-Bot",
-        "description": "A little robot, exploring how robots might use non-verbal communication with us to help them achieve their goals. In this design fiction, a robot hidden in a tissue box has a goal to conduct surveillance, but has no way to move. So it non-verbally communicates with humans to move it to a new location. "
+        "description": "A little robot, exploring how robots might use non-verbal communication with us to help them achieve their goals. In this design fiction, a robot hidden in a tissue box has a goal to conduct surveillance, but has no way to move. So it non-verbally communicates with humans to move it to a new location. ",
+        "link": ["https://cargocollective.com/adit/Communicating-Co-Bots", "Project Write-Up"]
     },
     "contract-scraper":{
         "title": "Scraping LAPD Contracts",

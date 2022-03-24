@@ -84,7 +84,7 @@ To test the new system architecture, instead of making a prototype, I made a car
 
 ## Informal Cardsorting *(3x 30min sessions)*
 
-![Sticky notes on a desk, categorizing and grouping different concepts](./study-manager-case-study-18.png#grid-column=wide-left / center)
+![Sticky notes on a desk, categorizing and grouping different concepts](./study-manager-case-study-18.png "#grid-column=wide-left / center")
 
 ![Sticky notes and index cards spread out over a poster, prototyping the application architecture and users' mental models](./study-manager-case-study-19.png '#grid-column=center / wide-right')
 
