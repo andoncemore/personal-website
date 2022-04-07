@@ -1,11 +1,11 @@
 ---
-date: 2019-08
+date: 2020-04
 title: How can prototyping facilitate design discovery?
 shortDescription: Using prototyping as a design discovery method to explore and make sense of machine learning in the civic context. 
 featuredImage: hero.png
 tags: [Unstable Label, MFA Thesis]
 description: >
- Within the design process, prototyping is most often used once an initial concept has been identified, heling to iteratively define that concept. 
+ Within the design process, prototyping is most often used once an initial concept has been identified, helping to iteratively define that concept. 
 
 
  Through my project Unstable Label, I show a different approach to prototyping by **using it as a method in the early design discovery phases of the project to think through ideas before any individual concept has been identified.** While the prototyping takes different forms, each prototype was developed without a particular outcome in mind. Instead, they were all built as a way to explore, communicate, and make sense of machine learning in the civic context. 

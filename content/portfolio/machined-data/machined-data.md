@@ -13,6 +13,7 @@ description: >
  The scenarios, communicated through a set of prototypes I designed and built, serve as a tangible means to engage with the ethical issues surrounding data collection systems in different contexts, and a way to think through approaches to intervene within data collection systems now and in the future.
 info:
 - Exhibited at ArtCenter MDP WIP Show (2020)
+- "[Process Case Study](/case-studies/scenario-building/)"
 
 ---
 

@@ -10,7 +10,7 @@ export default function ResponsiveIframe({ iframeString, className, style, title
             const props = attributesToProps(attribs);
             return (
             <div 
-                style={{position: "relative", height: 0, overflow: "hidden", paddingBottom: `${props.height/props.width*100}%`, ...style}} 
+                style={{background: 'black', position: "relative", height: 0, overflow: "hidden", paddingBottom: `${props.height/props.width*100}%`, ...style}} 
                 className={className}
             >
                 <iframe title={title} style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}} {...props} ></iframe>
