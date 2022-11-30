@@ -10,8 +10,16 @@ export default function Activities(){
                 <div className={ActivityStyle.table}>
                     <div>Experience</div>
                     <div>
+                        <ul><li>Moving Brands</li><li>Creative Technologist</li></ul>
+                        <p>June 2022 - Present</p>
+                    </div>
+                    <div>
+                        <ul><li>ArtCenter</li><li>Part-Time Lecturer</li></ul>
+                        <p>September 2022 - Present</p>
+                    </div>
+                    <div>
                         <ul><li>NASA JPL</li><li>Intern, Human Centered Designer II</li></ul>
-                        <p>2019 - Current</p>
+                        <p>2019 - 2022</p>
                     </div>
                     <div>
                         <ul><li>Emulate</li><li>Associate Product Designer</li></ul>
