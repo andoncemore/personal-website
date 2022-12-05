@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import {interactive_container, message} from '../styles/sketchbook2.module.css'
 import {Pannable, MemoDraggable} from '../components/canvas'
 import {Sketch, Sticky, SketchbookControls, DetailPanel} from '../components/sketchbookElements'
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 
 import { useStaticQuery, graphql } from 'gatsby'
 import sketchContent from "../../content/sketchbook/sketches.json"
@@ -150,25 +150,25 @@ function Sketchbook({location}) {
         console.log(sketches);
     }
 
-    const publishToSpreadsheet = () => {
-        let data = {
-            range: 'Sheet1!A2:D',
-            majorDimension: 'ROWS',
-            values: sketches.map((val) => [val.id, val.x, val.y, val.order])
-        }
-        fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetID}/values/${data.range}?valueInputOption=USER_ENTERED&key=${process.env.GATSBY_SHEETS_KEY}`,{
-            method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        }).then(res => res.json()).then(d => console.log('Success', d))
-    }
+    // const publishToSpreadsheet = () => {
+    //     let data = {
+    //         range: 'Sheet1!A2:D',
+    //         majorDimension: 'ROWS',
+    //         values: sketches.map((val) => [val.id, val.x, val.y, val.order])
+    //     }
+    //     fetch(`https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetID}/values/${data.range}?valueInputOption=USER_ENTERED&key=${process.env.GATSBY_SHEETS_KEY}`,{
+    //         method: 'PUT',
+    //         headers: {
+    //             'Content-Type': 'application/json'
+    //         },
+    //         body: JSON.stringify(data)
+    //     }).then(res => res.json()).then(d => console.log('Success', d))
+    // }
 
 
     return(
         <React.Fragment>
-            <SEO />
+            <Seo title="Sketchbook" />
             <Navbar location={location} />
             <div className={message}>
                 <p>Experimental functionality: Pan around and drag anything!</p>

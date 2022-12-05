@@ -1,6 +1,6 @@
 import React from "react"
 import Img from "gatsby-image"
-import SEO from "../../../src/components/SEO"
+import Seo from "../../../src/components/SEO"
 import { graphql } from 'gatsby'
 import Article from "../../../src/components/article"
 
@@ -8,7 +8,7 @@ export default function AlgorithmCircle({data, location}) {
   console.log(data);
   return (
     <Article location={location}>
-      <SEO title="Algorithm Circle" description="A personal reflection on reccomendation algorithms and social experiences of finding new things to watch, read, listen or consume." />
+      <Seo title="Algorithm Circle" description="A personal reflection on reccomendation algorithms and social experiences of finding new things to watch, read, listen or consume." />
       <h1>What should I read/watch/listen?</h1>
       <p style={{fontFamily: 'DM Sans', fontSize: '1.4rem', lineHeight: "1.3", marginBottom:"40px"}}>A personal, <b>"neostalgic"</b> look at content reccomendation to imagine collective approaches to reccomendation algorithms </p>
       {/* <hr /> */}

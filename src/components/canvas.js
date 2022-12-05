@@ -9,12 +9,12 @@ export function Pannable({children, constraints, camera, setCamera}){
     const {height, width} = useWindowDimensions(interactiveRef);
 
     //Functions to move the canvas
-    function screenToCanvas(screen, camera){
-        return {
-            x: screen.x / camera.z - camera.x,
-            y: screen.y / camera.z - camera.y
-        };
-    }
+    // function screenToCanvas(screen, camera){
+    //     return {
+    //         x: screen.x / camera.z - camera.x,
+    //         y: screen.y / camera.z - camera.y
+    //     };
+    // }
     function panCamera(camera, dx, dy){
         let xmin = 0 - constraints.xmax;
         let xmax = width / camera.z - constraints.xmin;
@@ -26,20 +26,21 @@ export function Pannable({children, constraints, camera, setCamera}){
             z: camera.z
         }
     }
-    function zoomCamera(camera, screenPoint, dz){
-        const zoom = dz;
-        const p1 = screenToCanvas(screenPoint, camera);
-        const p2 = screenToCanvas(screenPoint, {
-            x: camera.x,
-            y: camera.y,
-            z: zoom
-        });
-        return {
-            x: camera.x + (p2.x - p1.x),
-            y: camera.y + (p2.y - p1.y),
-            z: zoom
-        };
-    };
+
+    // function zoomCamera(camera, screenPoint, dz){
+    //     const zoom = dz;
+    //     const p1 = screenToCanvas(screenPoint, camera);
+    //     const p2 = screenToCanvas(screenPoint, {
+    //         x: camera.x,
+    //         y: camera.y,
+    //         z: zoom
+    //     });
+    //     return {
+    //         x: camera.x + (p2.x - p1.x),
+    //         y: camera.y + (p2.y - p1.y),
+    //         z: zoom
+    //     };
+    // };
 
      // Gesture Handlers
     useGesture(

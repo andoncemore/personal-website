@@ -4,12 +4,12 @@ import Layout from '../components/layout'
 import ContentGrid from '../components/contentGrid'
 import AboutMe from '../components/aboutme'
 import {heroContainer, intro} from '../styles/homestyles.module.css'
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 
 export default function Home({data, location}) {
   return (
     <Layout className="dark" location={location}>
-      <SEO />
+      <Seo title="Adit Dhanushkodi" />
       <div className={heroContainer}>
         <StaticImage src="./landing-colored.png" alt="Closeup of someone looking through a cardboard binocular" style={{height: "100%"}} loading="eager" layout="fullWidth" />
         <div className={intro}>

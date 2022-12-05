@@ -1,4 +1,4 @@
-import React, {memo} from 'react'
+import React from 'react'
 import {sketchbook_controls, icon_toggle, detail_panel, detail_content, detail_title, mobile, sketch, selected, large, sketch_thumbnail, sticky, image_wrapper} from '../styles/sketchbook2.module.css'
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 import {GatsbyImage, getImage} from "gatsby-plugin-image"

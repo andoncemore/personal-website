@@ -93,6 +93,10 @@ exports.createPages = async ({ actions, graphql }) => {
                 name
               }
             }
+            frontmatter {
+              external
+              locked
+            }
           }
         }
       }
@@ -144,14 +148,17 @@ exports.createPages = async ({ actions, graphql }) => {
         return
     }
     result.data.portfolio.edges.forEach(({node}) =>{
-        createPage({
+        console.log(node.fields.slug, node.frontmatter.external);
+        if(node.frontmatter.external == null && node.frontmatter.locked !== true){
+          createPage({
             path: node.fields.slug,
             component: blogPostTemplate,
             context:{
                 slug: node.fields.slug,
                 name: node.parent.name
             }
-        });
+          });
+        }
     })
     result.data.casestudies.edges.forEach(({node}) =>{
         createPage({

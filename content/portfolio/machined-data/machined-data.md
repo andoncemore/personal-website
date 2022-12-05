@@ -3,7 +3,7 @@ date: 2019-11
 title: Machined Data
 shortDescription: Speculative design scenarios around civic data collection for machine learning.
 thumbnail: thumbnail.png
-main: true
+main: false
 featuredImage: hero.png
 tags: ["2019", "Individual Project"]
 description: >

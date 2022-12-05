@@ -184,6 +184,19 @@
     padding: 0 20px;
 }
 
+.smallProject .iconStyle{
+    fill: var(--body-content);
+    height: 16px;
+    margin-right: 3px;
+}
+
+.featuredProject .iconStyle{
+    fill: var(--body-content);
+    height: 24px;
+    margin-right: 4px;
+}
+
+
 
 
 /* Hover Effects */
@@ -240,6 +253,13 @@
     /* transform: scale(1.05); */
 }
 
+.featuredProject:hover .iconStyle{
+    fill: var(--link-color);
+}
+
+.smallProject:hover .iconStyle{
+    fill: var(--link-color);
+}
 
 
 

@@ -6,7 +6,7 @@ import {projectOverview, tagList,description, infoList, link, normal, highlighte
 import {wide} from "../styles/articleImages.module.css"
 import {casestudy, portfolio} from "../styles/articleText.module.css"
 import ResponsiveIframe from '../components/responsive_iframe'
-import SEO from "../components/SEO"
+import Seo from "../components/SEO"
 
 export default function Template({data, location}) {
   // This is the data
@@ -15,7 +15,7 @@ export default function Template({data, location}) {
 
   return (
     <Article location={location}>
-        <SEO title={post.frontmatter.title ? post.frontmatter.title : ""} description={post.frontmatter.shortDescription} />
+        <Seo title={post.frontmatter.title ? post.frontmatter.title : ""} description={post.frontmatter.shortDescription} />
         {post.frontmatter.featuredImage && 
             <GatsbyImage image={getImage(post.frontmatter.featuredImage)} className={wide} loading="eager" />}
             

@@ -46,6 +46,11 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0"
   },
+  "overrides": {
+    "gatsby-plugin-sharp": {
+      "probe-image-size": "^7.0.0"
+    }
+  },
   "devDependencies": {
     "prettier": "2.2.1"
   },

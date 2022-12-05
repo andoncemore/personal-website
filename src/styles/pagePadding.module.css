@@ -1,5 +1,4 @@
 .padding{
     padding: calc(var(--body-padding-y)*1.5) var(--body-padding-x) var(--body-padding-y) var(--body-padding-x);
     /* padding: var(--body-padding-y) 0; */
-
 }
