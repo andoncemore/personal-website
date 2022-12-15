@@ -3,7 +3,7 @@ date: 2018-07
 title: Study Manager
 shortDescription: Helping biologists working with Organs-on-Chips plan and execute experiments.
 thumbnail: thumbnail.png
-main: true
+main: false
 featuredImage: hero.png
 tags: ["2016-2018", "Project Lead", "Emulate"]
 description: >
