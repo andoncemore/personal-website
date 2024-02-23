@@ -10,12 +10,16 @@ export default function Activities(){
                 <div className={table}>
                     <div>Experience</div>
                     <div>
-                        <ul><li>Moving Brands</li><li>Creative Technologist</li></ul>
-                        <p>June 2022 - Present</p>
+                        <ul><li>New_Public</li><li>Senior UX Designer</li></ul>
+                        <p>February 2023 - Present</p>
                     </div>
                     <div>
-                        <ul><li>ArtCenter</li><li>Part-Time Lecturer</li></ul>
+                        <ul><li>ArtCenter</li><li>Part-Time Instructor</li></ul>
                         <p>September 2022 - Present</p>
+                    </div>
+                    <div>
+                        <ul><li>Moving Brands</li><li>Creative Technologist</li></ul>
+                        <p>Fall 2022</p>
                     </div>
                     <div>
                         <ul><li>NASA JPL</li><li>Intern, Human Centered Designer II</li></ul>
@@ -78,6 +82,25 @@ export default function Activities(){
                     <div>
                         <ul><li>ArtCenter MDP WIP Show 2018</li><li><Link to="portfolio/roaming-view">Roaming View</Link></li></ul>
                         <p>December 2018</p>
+                    </div>
+                </div>
+                <div className={table}>
+                    <div>Writing & Talks</div>
+                    <div>
+                        <ul><li><a href="https://newpublic.substack.com/p/empowering-community-stewards-to">Empowering community stewards to cultivate prosocial norms</a></li></ul>
+                        <p>February 2024</p>
+                    </div>
+                    <div>
+                        <ul><li><a href="https://newpublic.substack.com/p/behind-the-scenes-a-peek-into-the">Behind the scenes: A peek into the work of online community stewards</a></li></ul>
+                        <p>October 2023</p>
+                    </div>
+                    <div>
+                        <ul><li><a href="https://ieeexplore.ieee.org/document/10115779">Ground-In-The-Loop Mission Concept Study for Europa Lander Using Modeling and Simulation</a></li></ul>
+                        <p>March 2023</p>
+                    </div>
+                    <div>
+                        <ul><li><a href="https://www.youtube.com/watch?v=OzLgAH9v504">ArtCenter Creative Tech Week 2022</a></li></ul>
+                        <p>November 2022</p>
                     </div>
                 </div>
             </div>
