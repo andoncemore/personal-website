@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://experiment.adit.design"
+  to = "https://constantly-generous-bat.ngrok-free.app/"
+  status = 301
+  force = true
